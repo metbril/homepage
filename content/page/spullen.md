@@ -1,9 +1,5 @@
 ---
 title: My stuff
-slug: spullen
-menu:
-  footer:
-    name: Spullen
 ---
 {{< disclosure >}}
 

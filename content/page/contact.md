@@ -1,13 +1,5 @@
 ---
 title: Contact
-slug: contact
-navigation_weight: 90
-navigation_title: Contact
-sitemap: false
-menu:
-  main:
-    name: Contact
-    weight: 190
 ---
 :wave: Hi. Nice to see you.
 
@@ -21,7 +13,7 @@ The easiest way to do this is, to [create an account with ProtonMail](https://pr
 When in doubt or trouble, please send a request for help by regular e-mail first.
 If you already use PGP, then use [my Protonmail public key](/key.asc) with a suitable e-mail address.
 
-## Tekstberichten
+## Messaging
 
 However, I prefer short text messages, via [Signal](https://signal.org/nl/) in particular. Signal is a [privacy friendly alternative to WhatsApp](https://www.fixjeprivacy.nl/tip/ruil-whatsapp-in-voor-een-privacyvriendelijk-alternatief/). 
 I also use Apple iMessage and plain old SMS.
@@ -30,13 +22,7 @@ I also use Apple iMessage and plain old SMS.
 
 You can also find me elsewhere on the Internet, for example:
 
-[{{< icon class="fa fa-2x fa-linkedin" >}}](https://www.linkedin.com/in/robertvanbregt/) 
-[{{< icon class="fa fa-2x fa-twitter" >}}](https://twitter.com/robertvanbregt/) 
-[{{< icon class="fa fa-2x fa-mastodon" >}}](https://mastodon.social/@metbril)
-[{{< icon class="fa fa-2x fa-github" >}}](https://github.com/metbril/) 
-[{{< icon class="fa fa-2x fa-gitlab" >}}](https://gitlab.com/metbril/) 
-[{{< icon class="fa fa-2x fa-instagram" >}}](https://instagram.com/robertvanbregt/) 
-[{{< icon class="fa fa-2x fa-flickr" >}}](https://flickr.com/photos/rtvb/) 
-[{{< icon class="fa fa-2x fa-get-pocket" >}}](https://getpocket.com/@metbril) 
-[{{< icon class="fa fa-2x fa-reddit" >}}](https://www.reddit.com/user/digineut) 
-[{{< icon class="fa fa-2x fa-trello" >}}](https://trello.com/metbril) 
+- [LinkedIn](https://www.linkedin.com/in/robertvanbregt/) 
+- [Mastodon](https://mastodon.social/@metbril)
+- [GitHub](https://github.com/metbril/) 
+- [GitLab](https://gitlab.com/metbril/) 

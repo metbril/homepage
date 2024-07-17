@@ -1,10 +1,5 @@
 ---
 title: About me
-slug: about
-menu:
-  main:
-    name: About
-    weight: 10
 ---
 
 *Please read what I'm [doing now](/now)!.*

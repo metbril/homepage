@@ -34,7 +34,9 @@ Met alleen een map per datum blijft dat aantal nog steeds behoorlijk over de jar
 
 Uitgangspunt is, om een pagina en de bijbehorende resources (afbeeldingen, video, audio etc.) bij elkaar te houden. Dit kan door ze bij elkaar in een map op te slaan. Hugo noemt dat [Page Bundles](https://gohugo.io/content-management/organization/#page-bundles).
 
-### Thema
+## Design
+
+### Theme
 
 The current theme for my homepage is [Archie](https://github.com/athul/archie) and is installed as a git submodule.
 
@@ -45,3 +47,9 @@ Themes from others that I've used in the past, from latest to oldest:
 - [Mainroad](https://github.com/Vimux/Mainroad)
 - [Papermod](https://github.com/adityatelange/hugo-PaperMod)
 - [Coder](https://github.com/luizdepra/hugo-coder)
+
+### Menus
+
+The Archie theme only supports the `main` menu. The commonly used `footer` and `social` are not available. There is a `params.social` map, however that is used to show icons in the footer.
+
+Hugo allows you to specify menus inside the content or in the config. Both will do and can technically be mixed. For clarity it is best to pick one method. I have chosen to move all menu definitiions to the `hugo.toml` configuration file.

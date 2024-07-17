@@ -158,32 +158,6 @@ enableRobotsTXT = true
   # some markdown allowed
   license = "Unless otherwise noted, all written content on this site is licenced with a [CC BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/)."
 
-[[menus.en]]
-
-  # -- Main Menu --
-  # The main menu is displayed in the header at the top of the page.
-  # Acceptable parameters are name, pageRef, page, url, title, weight.
-  # 
-  # The simplest menu configuration is to provide:
-  #   name = The name to be displayed for this menu link
-  #   pageRef = The identifier of the page or section to link to
-  #
-  # By default the menu is ordered alphabetically. This can be
-  # overridden by providing a weight value. The menu will then be
-  # ordered by weight from lowest to highest.
-
-  [[menus.en.main]]
-    identifier = "locale"
-    weight = 999
-    [menus.en.main.params]
-      action = "locale"
-
-  # -- Footer Menu --
-  # The footer menu is displayed at the bottom of the page, just before
-  # the copyright notice. Configure as per the main menu above.
-
-  [[menus.en.footer]]
-
 [languages.en]
 
   languageCode = "en"
@@ -215,5 +189,20 @@ enableRobotsTXT = true
     description = "Personal website of Robert van Bregt"
     dateFormat = "2 January 2006"
 
-    # List sections with content for home page
-    mainSections = [ "posts" ]
+# List sections with content for home page
+mainSections = [ "posts" ]
+
+[[menu.main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 1
+
+[[menu.main]]
+  name =  "About"
+  pageRef = "about"
+  weight = 10
+
+[[menu.main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 190
