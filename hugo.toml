@@ -9,6 +9,9 @@ enableEmoji = true
 # Lazy menu
 # sectionPagesMenu = "main"
 
+# List sections with content for home page
+mainSections = [ "posts" ]
+
 ##################################################
 
 # archetypeDir  = "archetypes"
@@ -101,38 +104,14 @@ enableRobotsTXT = true
   #   # Twitter meta card
   #   twitter = "robertvanbregt"
 
-  # ---------- Archie theme ----------
+  # ---------- Archie theme specific parameters ----------
+
+  useCDN = false
 
   [[params.social]]
     name = "GitHub"
     icon = "github"
     url = "https://github.com/metbril"
-
-  # ---------- Congo theme ----------
-
-  colorScheme = "slate"
-  autoSwitchAppearance = true
-
-  [params.article]
-    showTaxonomies = true
-    # showDate = true
-    # showReadingTime = true
-
-  [params.list]
-    groupByYear = false
-    showSummary = true
-
-  [params.homepage]
-    layout = "profile"
-    showRecent = true
-
-  [params.header]
-    layout = "basic"
-    logo = "img/logo.png"
-
-  [params.footer]
-    showAppearanceSwitcher = true
-    showScrollToTop = true
 
   # ---------- official and common parameters ----------
 
@@ -188,9 +167,6 @@ enableRobotsTXT = true
   [languages.en.params]
     description = "Personal website of Robert van Bregt"
     dateFormat = "2 January 2006"
-
-# List sections with content for home page
-mainSections = [ "posts" ]
 
 [[menu.main]]
   name = "Posts"
