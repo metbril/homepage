@@ -5,6 +5,8 @@
 
 # robertvanbregt.nl
 
+This is the repository for my personal homepage, hosted at https://vanbregt.eu/ that used to live at https://robertvanbregt.nl/
+
 ## Permalinks
 
 Permalinks naar berichten zijn altijd een pad vanaf de root van de server met `/<jaar>/<maand>/<dag>/<slug>/`. Deze staat los van de organisatie van de content in het CMS.
@@ -34,12 +36,11 @@ Uitgangspunt is, om een pagina en de bijbehorende resources (afbeeldingen, video
 
 ### Thema
 
-Het huidge thema van mijn site is [Congo](https://github.com/jpanther/Congo) en is geïnstalleerd als een Hugo Module.
-
-Om het thema bij te werken naar de laatste versie, maak je gebruik van het commando `hugo mod get -u` vanuit de projectmap.
+The current theme for my homepage is [Archie](https://github.com/athul/archie) and is installed as a git submodule.
 
 Themes from others that I've used in the past, from latest to oldest:
 
+- [Congo](https://github.com/jpanther/Congo)
 - [Bilberry](https://themes.gohugo.io/themes/bilberry-hugo-theme/)
 - [Mainroad](https://github.com/Vimux/Mainroad)
 - [Papermod](https://github.com/adityatelange/hugo-PaperMod)

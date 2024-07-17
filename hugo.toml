@@ -1,0 +1,219 @@
+# Base url is overwritten in netlify.toml
+baseUrl   = "https://www.vanbregt.eu/"
+defaultContentLanguage = "en"
+
+theme = "archie"
+
+enableEmoji = true
+
+# Lazy menu
+# sectionPagesMenu = "main"
+
+##################################################
+
+# archetypeDir  = "archetypes"
+# assetDir      = "assets"
+# contentDir    = "content"
+# configDir     = "config"
+# datadir       = "data"
+# layoutDir     = "layouts"
+# publishDir    = "public"
+# staticDir     = "static"
+# themesDir     = "themes"
+
+##################################################
+
+# pagination
+paginate     = 10         # default = 10
+paginatePath = "pagina"   # default = "page"
+
+canonifyUrls = true
+
+pluralizeListTitles = false
+
+pygmentsStyle = "b2"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+
+disqusShortname = ""
+googleAnalytics = ""
+
+# content front matter format
+metaDataFormat = "yaml"
+
+summaryLength = 30  # default 70
+
+enableRobotsTXT = true
+
+# explicitly specify taxonomies for series support
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
+
+[services.rss]
+  limit = 10
+
+[permalinks]
+  # Specify for each section (= folder name)
+  posts = "/:year/:month/:day/:slug/"
+  page = "/:slug/"
+
+  # https://gohugo.io/content-management/urls/#permalink-configuration-values
+  # :year        | the 4-digit year
+  # :month       | the 2-digit month
+  # :monthname   | the name of the month
+  # :day         | the 2-digit day
+  # :weekday     | the 1-digit day of the week (Sunday = 0)
+  # :weekdayname | the name of the day of the week
+  # :yearday     | the 1- to 3-digit day of the year
+  # :section     | the content’s section
+  # :sections    | the content’s sections hierarchy
+  # :title       | the content’s title
+  # :slug        | the content’s slug (or title if no slug is provided in the front matter)
+  # :filename    | the content’s filename (without extension)
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  [params.author]
+    # name and email are used in internal RSS template
+    name  = "Robert van Bregt"
+    email = "contact.rjib@vanbregt.eu"
+
+    url   = "https://www.vanbregt.eu/"
+    photo = "/img/photo.jpg"
+
+  # [params.social]
+  #   # Twitter meta card
+  #   twitter = "robertvanbregt"
+
+  # ---------- Archie theme ----------
+
+  [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    url = "https://github.com/metbril"
+
+  # ---------- Congo theme ----------
+
+  colorScheme = "slate"
+  autoSwitchAppearance = true
+
+  [params.article]
+    showTaxonomies = true
+    # showDate = true
+    # showReadingTime = true
+
+  [params.list]
+    groupByYear = false
+    showSummary = true
+
+  [params.homepage]
+    layout = "profile"
+    showRecent = true
+
+  [params.header]
+    layout = "basic"
+    logo = "img/logo.png"
+
+  [params.footer]
+    showAppearanceSwitcher = true
+    showScrollToTop = true
+
+  # ---------- official and common parameters ----------
+
+  author      = "Robert van Bregt"
+  description = "Persoonlijke website van Robert van Bregt"
+  keywords    = "blog, persoonlijk"
+  images      = ["/img/avatar.jpg"]  # twitter cards
+  avatarURL   = "/img/avatar.jpg"
+  favicon     = "/favicon.ico"
+
+  # dateFormat = "2 January 2006"
+  dateFormat = "02-01-2006"
+
+  # See also post count
+  maxSeeAlsoItems = 5
+
+  commit = "https://github.com/metbril/robertvanbregt.nl/tree/"
+
+  rtl    = false
+
+  math   = false
+
+  # some markdown allowed
+  license = "Unless otherwise noted, all written content on this site is licenced with a [CC BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/)."
+
+[[menus.en]]
+
+  # -- Main Menu --
+  # The main menu is displayed in the header at the top of the page.
+  # Acceptable parameters are name, pageRef, page, url, title, weight.
+  # 
+  # The simplest menu configuration is to provide:
+  #   name = The name to be displayed for this menu link
+  #   pageRef = The identifier of the page or section to link to
+  #
+  # By default the menu is ordered alphabetically. This can be
+  # overridden by providing a weight value. The menu will then be
+  # ordered by weight from lowest to highest.
+
+  [[menus.en.main]]
+    identifier = "locale"
+    weight = 999
+    [menus.en.main.params]
+      action = "locale"
+
+  # -- Footer Menu --
+  # The footer menu is displayed at the bottom of the page, just before
+  # the copyright notice. Configure as per the main menu above.
+
+  [[menus.en.footer]]
+
+[languages.en]
+
+  languageCode = "en"
+  languageName = "English"
+  languageDirection = "ltr"
+  weight = 2
+
+  title = "Robert van Bregt"
+  # copyright is used in internal RSS template
+  copyright = "&copy; 2003-2023 Robert van Bregt"
+
+  [languages.en.author]
+    # 'name' and 'email' are used in internal RSS template
+    name = "Robert van Bregt"
+    email = "contact.rjib@vanbregt.eu"
+    ## for Congo: image in assets folder
+    image = "img/profile.jpg"
+    links = [
+      { mastodon = "https://mastodon.nl/@ro" },
+      { twitter = "https://twitter.com/robertvanbregt" },
+      { linkedin = "https://linkedin.com/in/robertvanbregt" },
+      { github = "https://github.com/metbril" },
+    ]
+
+    headline = "Like to makes the world a little better, starting with himself."
+    bio = "Experienced projectmanger in health IT. Privacy advocate. Home and personal automatator. Likes sciency, technology and anything computers."
+
+  [languages.en.params]
+    description = "Personal website of Robert van Bregt"
+    dateFormat = "2 January 2006"
+
+    # List sections with content for home page
+    mainSections = [ "posts" ]
