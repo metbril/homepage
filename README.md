@@ -1,9 +1,8 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7aab4e76-1d18-4833-a0ac-aeff52d2ce30/deploy-status)](https://app.netlify.com/sites/robertvanbregt-nl/deploys)
-[![Netlify](https://img.shields.io/netlify/7aab4e76-1d18-4833-a0ac-aeff52d2ce30)](https://app.netlify.com/sites/robertvanbregt-nl/deploys)
-[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m778967457-ef70f48943056678f234ac2b)](https://stats.uptimerobot.com/9987YCk75y/778967457)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Frobertvanbregt.nl)](https://robertvanbregt.nl)
+[![Netlify](https://img.shields.io/netlify/02f7a50c-4687-42da-a8c0-4fc97c730925?label=build)](https://app.netlify.com/sites/extraordinary-melomakarona-3a9ef1/deploys)
+[![Uptime Robot status](https://img.shields.io/uptimerobot/status/m788109163-4ff579b3c43afde55d7be936)](https://stats.uptimerobot.com/9987YCk75y/778967457)
+[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m788109163-4ff579b3c43afde55d7be936)](https://stats.uptimerobot.com/9987YCk75y/778967457)
 
-# robertvanbregt.nl
+# Homepage for Robert van Bregt
 
 This is the repository for my personal homepage, hosted at https://vanbregt.eu/ that used to live at https://robertvanbregt.nl/
 
