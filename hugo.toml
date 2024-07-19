@@ -1,5 +1,5 @@
 # Base url is overwritten in netlify.toml
-baseUrl   = "https://www.vanbregt.eu/"
+baseUrl   = "https://new.vanbregt.eu/"
 defaultContentLanguage = "en"
 title = "Robert van Bregt"
 
