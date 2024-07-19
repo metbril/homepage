@@ -12,8 +12,8 @@ Wie dacht dat [The Voice of Holland](http://www.thevoiceofholland.com/) favoriet
 
 Werkelijk jaren geleden waren de heren al te zien als “Daddy’s Wish” in een programma van de [KRO](http://www.kro.nl).
 
-![](https://youtube.com/v/LkKg6zaLo_s)
+![youtube](https://youtube.com/v/LkKg6zaLo_s)
 
 En in 2003 traden ze als het duo Brothers op in een programma van de [TROS](http://www.tros.nl).
 
-![](https://youtube.com/v/pwyf6HShrSg)
+![youtube](https://youtube.com/v/pwyf6HShrSg)

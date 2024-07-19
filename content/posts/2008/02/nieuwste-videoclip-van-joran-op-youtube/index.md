@@ -7,5 +7,3 @@ taxonomy:
 tags: [humor,joran,video,youtube,humor,joran,video,youtube]
 ---
 De nieuwste videoclip van Joran is nu te bewonderen op YouTube. 🙂
-
- 

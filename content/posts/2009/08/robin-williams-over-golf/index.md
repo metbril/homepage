@@ -6,4 +6,4 @@ taxonomy:
     migration-status: review
 tags: [golf,humor,sport,video,youtube]
 ---
-{{<youtube pcnFbCCgTo4>}}
+{{< youtube pcnFbCCgTo4 >}}

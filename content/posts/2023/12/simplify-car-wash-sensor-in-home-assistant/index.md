@@ -34,7 +34,7 @@ The template is this:
 
 Additionaly, I have set the device type of the sensor to "Problem", so it will show an appropriate icon.
 
-![](./car-wash.png)
+![Car wash sensor](./car-wash.png)
 
 [repo]: https://github.com/Limych/ha-car_wash/
 [hablog]: https://www.home-assistant.io/blog/2023/09/06/release-20239/#weather-forecast-service

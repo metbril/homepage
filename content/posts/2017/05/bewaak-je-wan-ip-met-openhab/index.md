@@ -6,6 +6,7 @@ syndicateto:
     - https://community.openhab.org/t/how-to-monitor-a-dynamic-wan-ip-address/11368
     - https://github.com/openhab/openhab1-addons/wiki/Samples-Tricks#how-to-monitor-a-dynamic-wan-ip-address
 ---
+<!-- markdownlint-disable MD052 -->
 *(Dit artikel heb ik in het Engels eerder geplaatst op het [openHAB forum](https://community.openhab.org/t/how-to-monitor-a-dynamic-wan-ip-address/11368) en in de [openHAB wiki](https://github.com/openhab/openhab1-addons/wiki/Samples-Tricks#how-to-monitor-a-dynamic-wan-ip-address))*
 
 ## Het probleem
@@ -29,7 +30,7 @@ Opmerking: Wees aardig voor de website die je aanroept.
 
 ## Configuratie
 
-**valid_ip.js**
+### valid_ip.js
 
 Dit script controleert of het antwoord van de website een geldig IP adres is.  
 Soms gebeurt het dat de pagina een foutmelding geeft.  
@@ -54,23 +55,23 @@ Die wordt hiermee voorkomen.
 // input variable contains data passed by openhab
 ```
 
-**demo.items**
+### demo.items
 
 Bij het item kun je instellen hoe vaak je het wilt controleren.  
  Een keer per uur is eigenlijk voldoende.
 
-```
+```text
 // check for WAN IP address changes every 60 mins (3600 seconds)
 String Network_WAN_IP "WAN IP address [%s]" <network> (Network) { http="<[http://icanhazip.com:3600000:JS(valid_ip.js)]"
 ```
 
-**demo.rules**
+### demo.rules
 
 Deze regel “gaat af” zodra het IP adres wijzigt.  
  Bij het opstarten van openHAB is de waarde leeg,  
  dus de eerste wijziging moet je negeren.
 
-```
+```text
 rule "Monitor WAN IP"
 when
     Item Network_WAN_IP changed
@@ -87,9 +88,9 @@ then
 end
 ```
 
-**demo.sitemap**
+### demo.sitemap
 
-```
+```text
 sitemap demo label="Demo" {
     Frame {
         Text item=Network_WAN_IP

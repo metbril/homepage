@@ -6,7 +6,7 @@ tags: [computer,javascript,programmeren,rss,firefox]
 categories: [Technology]
 ---
 
-In vorige versies van [Firefox](http://www.firefox.com/) kon ik via de Live Feeds optie eenvoudig een feed toevoegen aan [Google Reader](http://www.google.nl/reader/). Sinds kort, ik weet niet wat er gebeurd is, kan ik via de Google Reader optie alleen nog maar een feed toevoegen aan [iGoogle](http://www.google.nl/ig). En dat wil ik niet. 
+In vorige versies van [Firefox](http://www.firefox.com/) kon ik via de Live Feeds optie eenvoudig een feed toevoegen aan [Google Reader](http://www.google.nl/reader/). Sinds kort, ik weet niet wat er gebeurd is, kan ik via de Google Reader optie alleen nog maar een feed toevoegen aan [iGoogle](http://www.google.nl/ig). En dat wil ik niet.
 
 Daarom heb ik maar weer even wat rondgesnuffeld om uit te zoeken hoe ik nieuwe feed readers toe kan voegen aan Firefox. Blijkt daar een mooie [API](http://developer.mozilla.org/en/docs/DOM:window.navigator.registerContentHandler) voor te bestaan.
 

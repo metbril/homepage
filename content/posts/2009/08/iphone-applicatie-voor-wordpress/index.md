@@ -6,4 +6,4 @@ taxonomy:
     migration-status: review
 tags: [bloggen,iphone,bloggen,iphone]
 ---
-Nu ik mijn persoonlijke weblog weer heb gereanimeerd, is het niet meer dan normaal dat ik ook gebruik zal gaan maken van de [ iPhone applicatie voor WordPress](http://iphone.wordpress.org/).
+Nu ik mijn persoonlijke weblog weer heb gereanimeerd, is het niet meer dan normaal dat ik ook gebruik zal gaan maken van de [iPhone applicatie voor WordPress](http://iphone.wordpress.org/).

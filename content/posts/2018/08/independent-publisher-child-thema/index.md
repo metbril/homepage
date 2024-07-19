@@ -5,4 +5,4 @@ tags: [wordpress,meta]
 ---
 Ik ben overgestapt op Independent Publisher, een ander thema, maar dat doet (nog) niet helemaal wat ik wil. Daarom ben ik (voor de allereerste keer) gestart met het aanpassen ervan.
 
-https://codex.wordpress.org/Child\_Themes
+<https://codex.wordpress.org/Child\_Themes>

@@ -22,27 +22,27 @@ I'm interested in the nationwide statistics, but also in those for my local comm
 
 ## Find country feed
 
-The feed for the whole country is simply available at https://coronadashboard.rijksoverheid.nl/json/NL.json.
+The feed for the whole country is simply available at <https://coronadashboard.rijksoverheid.nl/json/NL.json>.
 
 ## Find safety region feed
 
 Each safety region ("*veiligheidsregio*") has it's own feed.
 
-You can find the id by opening the regular [Corona dashboard][coronadashboard], scroll down and search for its name. The link for the page end with the id. For example, the link for Amsterdam-Amstelland is https://coronadashboard.rijksoverheid.nl/actueel/veiligheidsregio/VR13, so the id is `VR13`.
+You can find the id by opening the regular [Corona dashboard][coronadashboard], scroll down and search for its name. The link for the page end with the id. For example, the link for Amsterdam-Amstelland is <https://coronadashboard.rijksoverheid.nl/actueel/veiligheidsregio/VR13>, so the id is `VR13`.
 
 The feed for the safety region is available at `https://coronadashboard.rijksoverheid.nl/json/<id>.json`, where you need to replace `<id>` with the one you found.
 
-The feed for Amsterdam-Amstelland is https://coronadashboard.rijksoverheid.nl/json/VR13.json.
+The feed for Amsterdam-Amstelland is <https://coronadashboard.rijksoverheid.nl/json/VR13.json>.
 
 ## Find the feed for your municipality
 
 Each municipality ("gemeente") has it's own feed.
 
-You can find the id by opening the regular [Corona dashboard][coronadashboard], scroll down and search for its name. The link for the page end with the id. For example, the link for Amsterdam is https://coronadashboard.rijksoverheid.nl/actueel/gemeente/GM0363 so the id for Amsterdam is `GM0363`.
+You can find the id by opening the regular [Corona dashboard][coronadashboard], scroll down and search for its name. The link for the page end with the id. For example, the link for Amsterdam is <https://coronadashboard.rijksoverheid.nl/actueel/gemeente/GM0363> so the id for Amsterdam is `GM0363`.
 
 The feed for the municipality is available at `https://coronadashboard.rijksoverheid.nl/json/<id>.json`, where you need to replace `<id>` with the one you found.
 
-The feed for Amsterdam is https://coronadashboard.rijksoverheid.nl/json/GM0363.json
+The feed for Amsterdam is <https://coronadashboard.rijksoverheid.nl/json/GM0363.json>
 
 ## Get the data
 

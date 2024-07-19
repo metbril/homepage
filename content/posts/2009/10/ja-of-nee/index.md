@@ -9,5 +9,3 @@ tags: [campagne,overheid,video,youtube,campagne,overheid,video,youtube]
 De overheid heeft een nieuwe campagne om Nederlanders aan het denken te zetten over [orgaandonatie](http://www.jaofnee.nl).
 
 De helden van Monty Python hebben daar zo hun maniertjes voor:
-
- 

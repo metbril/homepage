@@ -14,7 +14,7 @@ Om niet steeds een kaart, telefoon of GPS te hoeven vasthouden om de leuke paden
 
 De kleine parkeerplaats staat bijna vol. Het heeft goed geregend, dus het is belangrijk om de auto op een stevige ondergrond te parkeren, zodat ik straks bij het wegrijden niet vast kom te zitten. Vanaf de parkeerplaats loop ik terug naar de provinciale weg, en sla linksaf bij het eerste knooppunt. Even verderop kom ik bij een fietserstunnel en ga opnieuw linksaf. Ik volg het fietspad en ontwijk zo nu en dan wat mannen in lycra op de racefiets. Net voor ik de Lek bereik sla ik linksaf, een halfverharde weg in. Ik ben nu bijna halverwege de route van vandaag.
 
-Aan het eind van dit pad loop ik tegen het vogelkijkscherm aan van Polder Den Hoek. Er is vandaag niet veel bijzonders te zien. Ik zie alleen ganzen. Nadat ik een beetje uit de wind mijn banaan heb kunnen eten ga ik verder. Ik klim over een hek en loop de polder in. Vanaf hier is er eigenlijk geen weg, maar loop je door de weilanden. 
+Aan het eind van dit pad loop ik tegen het vogelkijkscherm aan van Polder Den Hoek. Er is vandaag niet veel bijzonders te zien. Ik zie alleen ganzen. Nadat ik een beetje uit de wind mijn banaan heb kunnen eten ga ik verder. Ik klim over een hek en loop de polder in. Vanaf hier is er eigenlijk geen weg, maar loop je door de weilanden.
 
 {{< figure src="nespolder-voetveer.jpg" caption="Voetveer in de Nespolder">}}
 

@@ -38,7 +38,7 @@ Start op je iPhone de app Opdrachten. (Installeer deze eerst als je hem ooit ver
 
 Maak een nieuwe Opdracht, geef deze een naam (bijvoorbeeld ‘Ik wil staan’ en kies een icoon (bijvoorbeeld een pijltje omhoog).
 
-Voeg een taak toe aan de nieuwe opdracht. Kies de Idasen Controller app en kies de actie ‘Move desk to position’. 
+Voeg een taak toe aan de nieuwe opdracht. Kies de Idasen Controller app en kies de actie ‘Move desk to position’.
 
 {{< figure src="shortcut-idasen-1.png" width="300" >}}
 
@@ -77,7 +77,5 @@ Een tenslotte. Laat je collega’s tijdens een Team-vergadering eens zien hoe je
 Op dit moment kan ik het bureau nog niet instellen via [Home Assistant][homeassistant]. Daarvoor bestaat [een ESP Home module  die via Bluetooth kan verbinden met het bureau][esphome]. Als ik dat voor elkaar krijg, kan ik het verstellen van het bureau zelfs automatiseren. Bijvoorbeeld het bureau automatisch op stahoogte instellen als ik 1 uur gezeten heb, of als ik deelneem aan een Teams-vergadering.
 De mogelijkheden zijn oneindig. Een leuk projectje voor een rustig moment in een winter.
 
-[deskcontrol]: https://apps.apple.com/nl/app/desk-control/id1203254365
-[idasencontroller]: https://apps.apple.com/nl/app/id%C3%A5sen-controller/id1562124476
 [homeassistant]: https://home-assistant.io/
 [esphome]: https://github.com/j5lien/esphome-idasen-desk-controller

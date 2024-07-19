@@ -3,7 +3,8 @@ title: 'Deze Week 47-19'
 date: 2019-11-24T19:16:35.909+01:00
 categories: ["Deze Week"]
 ---
-Naar een idee van [Ton Zijlstra][1] ga ik wekelijks verslag doen van de belangrijkste gebeurtenissen die hebben plaatsgevonden. 
+<!-- markdownlint-disable MD052 -->
+Naar een idee van [Ton Zijlstra][1] ga ik wekelijks verslag doen van de belangrijkste gebeurtenissen die hebben plaatsgevonden.
 
 Deze week heb ik:
 
@@ -14,5 +15,5 @@ Deze week heb ik:
   
 [1]: https://zylstra.org
 [2]: {{< ref "naar-hugo-en-netlify" >}}
-[3]: https://indieweb.org/Micropub
-[4]: https://paulrobertlloyd.github.io/indiekit/
+[3]: <https://indieweb.org/Micropub>
+[4]: <https://paulrobertlloyd.github.io/indiekit/>

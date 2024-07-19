@@ -11,10 +11,6 @@ In mijn streven naar het gebruik van open source programmatuur en open data ben 
 
 [osm\_map lat=”51.963″ long=”4.61″ zoom=”12″ width=”600″ height=”450″ gpx\_file=”/wp-content/uploads/2012/07/Moordrecht.gpx” gpx\_colour=”red” marker\_file=”/wp-content/uploads/2012/07/Moordrecht.txt” map\_border=”thin solid black” control=”scaleline” theme=”ol” type=”Mapnik”]
 
-
-
 Download track: [Moordrecht](/wp-content/uploads/2012/07/Moordrecht.gpx)
-
- 
 
 [bol\_product id=”9000000011602478,9000000011100068,9000000011100072,9000000011868546″ price\_range=”undefined” name=”bregtology” background\_color=”#FFFFFF” text\_color=”#CB0100″ link\_color=”#0000FF” border\_color=”#D2D2D2″ width=”500″ cols=”2″ rating=”true” price=”true” bolheader=”undefined” target=”true” image\_size=”true” css\_file=”bol\_1341565488\_links.css”]
