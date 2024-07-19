@@ -10,15 +10,15 @@ header_image: '0'
 post_id: 1225
 ---
 
-![](original-ipad.jpg?cropResize=150,150 "iPad")
+![original ipad](original-ipad.jpg?cropResize=150,150 "iPad")
 Inmiddels maak ik alweer een paar maanden met veel plezier en naar volle tevredenheid gebruik van een [iPad](http://www.apple.com/nl/ipad/). Inmiddels ben ik er achter dat het gebruik met behulp van accessoires nog handiger en veelzijdiger wordt.
 
 **Apple iPad Camera Connection Kit**  
-![](apple-camera-connection-kit.jpeg?cropResize=150,150 "Apple Camera Connection Kit")
+![apple camera connection kit](apple-camera-connection-kit.jpeg?cropResize=150,150 "Apple Camera Connection Kit")
 Met de Camera Connection Kit kun je foto’s van een SD-card, je iPhone, USB-stick of een andere cardreader bekijken op je iPad. Gemakkelijke opslag voor een vakantie, als je camerageheugen vol is. Waar de Kit ook goed voor is, is het aansluiten van een USB-toetsenbord of het [bekijken van films die niet met iTunes op de iPad](https://youtube.com/watch?v=rNn62ZJxEZY) zijn gezet. Dat laatste is erg handig als je de goedkoopste dus kleinste iPad aanschaft en toch een hele vakantie door wilt komen.
 
 **Griffin iPad Stylus**  
-![](griffin-stylus-pen-for-apple.jpg?cropResize=150,150)
+![griffin stylus pen for apple](griffin-stylus-pen-for-apple.jpg?cropResize=150,150)
 Vingerverven vond ik leuk toen mijn zoon nog 3 jaar oud was. Verder vind ik schrijven en tekenen met mijn vingers helemaal niets. Dus ben ik op zoek gegaan naar een goede stylus. Na het lezen van reviews en goede ervaringen van een collega heb ik de [stylus van Griffin](http://www.griffintechnology.com/products/stylus) aangeschaft. Perfect voor het maken van aantekeningen, en het maken van tekeningen. Met behulp van een app als [Adobe Ideas](http://itunes.apple.com/nl/app/adobe-ideas/id364617858) en een video adapter maak je van je iPad zonder problemen een digitaal whiteboard.
 
 **Apple composiet-AV-kabel**  

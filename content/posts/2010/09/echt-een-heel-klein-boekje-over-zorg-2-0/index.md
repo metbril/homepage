@@ -8,7 +8,7 @@ tags:
     - e-health
 ---
 
-[![](cover.jpg)](http://www.eburon.nl/een_heel_klein_boekje_over_zorg_2_0_ebook)
+[![Boekomslag van een heel klein boekje over zorg 2.0](cover.jpg)](http://www.eburon.nl/een_heel_klein_boekje_over_zorg_2_0_ebook)
 
 Eerder deze week [bestelde](http://twitter.com/rbregt/status/24741667215) ik bij [eBookstick](http://www.ebookstick.nl/) mijn MANAGEMENTSTICK. Die kwam lekker snel binnen. Gisterenavond ben ik [op mijn iPad](http://twitter.com/rbregt/status/24872025152) direct aan het eerste boek begonnen: “[Een heel klein boekje over Zorg 2.0](http://www.eburon.nl/een_heel_klein_boekje_over_zorg_2_0_ebook)” van [Lucien Engelen](http://nl.linkedin.com/in/lucienengelen). Het boekje geeft in een notendop een heel aardige schets van wat [Zorg 2.0](http://www.zorg20.nl/) precies is en wat je er als zorgaanbieder mee zou moeten.
 

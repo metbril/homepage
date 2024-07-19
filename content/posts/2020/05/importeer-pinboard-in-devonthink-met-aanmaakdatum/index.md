@@ -17,7 +17,7 @@ Kopieer het script naar de map `~/Library/Application Scripts/com.devon-technolo
 
 Je kunt de Scripts-map snel openen door vanuit de Finder in het menu te kiezen voor **Ga > Ga naar map…** en dan het hele pad daar te plakken. In plaats van de menukeuze kun je ook de sneltoets **⇧⌘G** gebruiken
 
-![](DEVONthink-Scripts-Menu.png)
+![DEVONthink scripts menu](DEVONthink-Scripts-Menu.png)
 
 Vanuit de applicatie DEVONthink kun je nu via het **Scripts-menu > Import > Pinboard** het script starten.
 

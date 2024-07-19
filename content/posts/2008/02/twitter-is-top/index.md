@@ -6,8 +6,6 @@ tags:
 post_id: 59
 ---
 
-[slideshare id=254231&amp;doc=de-kracht-van-twitter-1202280468583599-3&amp;w=425]
-
-![](https://www.slideshare.net/erwblo/de-kracht-van-twitter)
+{{< slideshare key="5lobxbkDKGW2UO" page="de-kracht-van-twitter/254231" >}}
 
 Ik kan het niet beter uitleggen…

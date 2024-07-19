@@ -14,7 +14,7 @@ Onlangs las ik een tweet van [Geert Klein Breteler](https://twitter.com/geertkb)
 
 > Werk in je in de zorg en vergader je regelmatig, hier is vaste laatste agendapunt: "Wat heeft de patiënt aan deze vergadering gehad?"
 
-![](https://twitter.com/geertkb/status/410543453794476032)
+<!-- ![](https://twitter.com/geertkb/status/410543453794476032) -->
 
 Zó waar, zó voor de hand liggend, maar nét zo vaak volledig over het hoofd gezien. De patiënt. Voorlopig zal ik mijzelf na ieder overleg die vraag stellen. En wie weet zet ik ‘m ook echt op de agenda.
 

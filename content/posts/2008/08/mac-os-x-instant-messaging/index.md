@@ -14,7 +14,7 @@ tags: [apple,freeware,chat,instant messaging,mac,opensource,software,video,voip]
 
 ** **
 
-[![](https://upload.wikimedia.org/wikipedia/commons/2/21/AMSN_icon.png)](sdf)**aMSN**  
+[![aMSN](https://upload.wikimedia.org/wikipedia/commons/2/21/AMSN_icon.png)](sdf)**aMSN**  
  Wie ook de video-functie van MSN wil gebruiken, zal moeten terugvallen op [aMSN](http://nl.wikipedia.org/wiki/AMSN). Een stuk minder mooi, maar ja, soms heb je ‘m dus nodig.
 
 **Colloquy**  

@@ -3,7 +3,7 @@ title: 'Bekeken: Bastille Day'
 date: '2019-01-01 22:00:00'
 ---
 
-![](bastille-day-cover.jpeg)
+![Bastille Day cover](bastille-day-cover.jpeg)
 
 Gekeken met Netflix.
 
