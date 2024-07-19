@@ -14,7 +14,7 @@ enableEmoji = true
 # Lazy menu
 # sectionPagesMenu = "main"
 
-# List sections with content for home page
+# The sections which content is included in the home page
 mainSections = [ "posts" ]
 
 ##################################################
@@ -35,7 +35,7 @@ mainSections = [ "posts" ]
 paginate     = 10         # default = 10
 paginatePath = "pagina"   # default = "page"
 
-summaryLength = 30  # default 70
+summaryLength = 70  # default 70 (words)
 
 canonifyUrls = true
 
@@ -90,7 +90,7 @@ enableRobotsTXT = true
   # "See also" post count
   maxSeeAlsoItems = 5
 
-  commit = "https://github.com/metbril/home/tree/"
+  commit = "https://codeberg.org/r12t/home/commit/"
 
   rtl    = false
 
@@ -112,16 +112,6 @@ enableRobotsTXT = true
   # [params.social]
   #   # Twitter meta card
   #   twitter = "robertvanbregt"
-
-  # ---------- Archie theme specific parameters ----------
-
-  useCDN = false
-
-  # at least one entry is required to build site
-  [[params.social]]
-    name = "GitHub"
-    icon = "github"
-    url = "https://github.com/metbril"
 
 [permalinks]
   # Specify for each section (= folder name)
