@@ -80,6 +80,6 @@ steps:
       - git push
     when:
       - event: push
-        branch: $CI_REPO_DEFAULT_BRANCH
+        branch: main
     depends_on:
       - build
