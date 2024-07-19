@@ -7,15 +7,11 @@ aliases:
 ---
 **Update**: toetscombinatie aangepast, automatische taalkeuze mogelijk (zie reacties).
 
-**LibreOffice**
-
 [LibreOffice](http://www.libreoffice.org), het Open source alternatief voor [Microsoft Office](http://office.microsoft.com/nl-nl/), heeft al tijden de mogelijkheid om een Nederlandstalig taalpakket te installeren van de [Stichting Open Taal](http://www.opentaal.org/), waarmee een spellingcontrole wordt ingebouwd volgens de officiele woordenlijst.
-
-**Lion**
 
 Toevallig zag ik bij Open Taal dat er nu ook een [download](http://www.opentaal.org/bestanden/doc_details/17-opentaal-20-voor-apple-lion) beschikbaar is voor gebruik met [Lion](http://www.apple.com/nl/macosx/).
 
-**Instructies**
+Instructies:
 
 1. Download het [zip-bestand](http://www.opentaal.org/bestanden/doc_download/17-opentaal-20-voor-apple-lion)
 2. Unzip het bestand

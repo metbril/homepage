@@ -12,11 +12,11 @@ categories:
     - Technology
 ---
 
-*(This post is also contributed to the openHAB wiki)*
+(This post is also contributed to the openHAB wiki)
 
 The [Systeminfo Binding](https://github.com/openhab/openhab/wiki/Systeminfo-Binding) enables you to read system information through [Sigar](http://sigar.hyperic.com/). The system information provided through this library can be extended with some additional important features. For example, reading system temperatures for your Raspberry Pi.
 
-**CPU temperature**
+## CPU temperature
 
 The CPU temperature can be read with a terminal command:
 
@@ -27,7 +27,7 @@ $ cat /sys/class/thermal/thermal_zone0/temp
 
 This output can be captured using the Exec binding. The value returned represents millidegrees Celsius. (I’m not sure if another OS localization returns Fahrenheit). So the actual needed CPU temperature is computed through a Javascript transformation.
 
-**GPU temperature**
+## GPU temperature
 
 The GPU temperature can be read with a terminal command:
 

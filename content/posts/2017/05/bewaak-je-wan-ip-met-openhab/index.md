@@ -30,7 +30,7 @@ Opmerking: Wees aardig voor de website die je aanroept.
 
 ## Configuratie
 
-**valid_ip.js**
+### valid_ip.js
 
 Dit script controleert of het antwoord van de website een geldig IP adres is.  
 Soms gebeurt het dat de pagina een foutmelding geeft.  
@@ -55,7 +55,7 @@ Die wordt hiermee voorkomen.
 // input variable contains data passed by openhab
 ```
 
-**demo.items**
+### demo.items
 
 Bij het item kun je instellen hoe vaak je het wilt controleren.  
  Een keer per uur is eigenlijk voldoende.
@@ -65,7 +65,7 @@ Bij het item kun je instellen hoe vaak je het wilt controleren.
 String Network_WAN_IP "WAN IP address [%s]" <network> (Network) { http="<[http://icanhazip.com:3600000:JS(valid_ip.js)]"
 ```
 
-**demo.rules**
+### demo.rules
 
 Deze regel “gaat af” zodra het IP adres wijzigt.  
  Bij het opstarten van openHAB is de waarde leeg,  
@@ -88,7 +88,7 @@ then
 end
 ```
 
-**demo.sitemap**
+### demo.sitemap
 
 ```text
 sitemap demo label="Demo" {
