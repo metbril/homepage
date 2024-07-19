@@ -1,5 +1,6 @@
 ---
 title: My stuff
+slug: spullen
 ---
 {{< disclosure >}}
 

@@ -1,5 +1,6 @@
 ---
 title: Projects I have worked on
+slug: projects
 ---
 
 These are some personal projects I am currently working on or have worked on over the years. And open source projects I have notably contributed to.
@@ -17,4 +18,3 @@ These are some personal projects I am currently working on or have worked on ove
 More of my work is available on [GitHub][github].
 
 [github]: https://github.com/metbril
-

@@ -33,6 +33,18 @@ Met alleen een map per datum blijft dat aantal nog steeds behoorlijk over de jar
 
 Uitgangspunt is, om een pagina en de bijbehorende resources (afbeeldingen, video, audio etc.) bij elkaar te houden. Dit kan door ze bij elkaar in een map op te slaan. Hugo noemt dat [Page Bundles](https://gohugo.io/content-management/organization/#page-bundles).
 
+### Regular pages
+
+Hugo by default assumes that regular pages (including the home page) are in the root of the `content` folder. These pages get the page type `page`. For more organisation, I have moved all regular pages (except the homepage itself) into the `page` subfolder.
+
+This enables me to use some cascading front matter. The `page` folder automatically sets the page type.
+
+There is one drawback (or bug?). The page slug of those pages is set to the title. To prevent this, I have explicitly set the page slug in front matter.
+
+Example: The page `content/page/about.md` would be rendered to the url `/about-me/` if the `title` is "About Me".
+
+To have these pages rendered in the root of the site, I also had to set their permalink in `hugo.toml` config.
+
 ## Design
 
 ### Theme

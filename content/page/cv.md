@@ -1,5 +1,6 @@
 ---
 title: Curriculum Vitae
+slug: cv
 ---
 2011-heden
 : Projectmanager in het [Maasstad Ziekenhuis][maasstad]
