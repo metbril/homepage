@@ -13,5 +13,5 @@ Sinds de eerste keer die ik vermelde, in oktober 2003 was dat 256/64Kbits/s, kan
 
 [2003]: {{< ref snelheid-adsl-wordt-opnieuw-verhoogd >}}
 [2009]: {{< ref adsl-snelheden-in-de-tijd >}}
-[figure]: https://pixabay.com/nl/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3866139
-[pixabay]: https://pixabay.com/nl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3866139
+[figure]: <https://pixabay.com/nl/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3866139>
+[pixabay]: <https://pixabay.com/nl/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3866139>

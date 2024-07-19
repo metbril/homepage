@@ -19,7 +19,7 @@ The [Systeminfo Binding](https://github.com/openhab/openhab/wiki/Systeminfo-Bind
 **CPU temperature**
 
 The CPU temperature can be read with a terminal command:
- 
+
  ```bash
 $ cat /sys/class/thermal/thermal_zone0/temp
 46540
@@ -54,10 +54,8 @@ The user `openhab` needs to be member of the `video` group to be able to run the
 
 Group memberships are only updated after a reboot.
 
- 
-    $ sudo usermod -a -G video openhab
-    $ sudo reboot now
-
+    sudo usermod -a -G video openhab
+    sudo reboot now
 
 ### Create javascript transformation
 
@@ -71,27 +69,22 @@ Create a `milli.js` file (in transform folder) with this content:
 
 Add to `system.items` file:
 
- 
     // System temperatures
     Group  System_Temperature_Chart (System, Charts)
     Number System_Temperature_Chart_Period "Periode" (System)
     Number System_Temperature_CPU "Temperature CPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[cat /sys/class/thermal/thermal_zone0/temp:60000:JS(milli.js)]" }
     Number System_Temperature_GPU "Temperature GPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[/opt/vc/bin/vcgencmd measure_temp:60000:REGEX(temp=(.*?)'C)]" }
 
-
 ### Add persistence for items
 
 Add to `rrd4j.persist` file:
 
- 
     System_Temperature_Chart* : strategy = everyChange, everyMinute, restoreOnStartup
-
 
 ### Update sitemap
 
 Add to `default.sitemap` file:
 
- 
     Text item=System_Temperature_CPU label="Temperature [%.1f °C]" {
         Frame {
             Text item=System_Temperature_CPU
@@ -106,7 +99,6 @@ Add to `default.sitemap` file:
             Chart  item=System_Temperature_Chart period=D   refresh=60000 visibility=[System_Temperature_Chart_Period==4]
         }
     }
-
 
 ## Sources
 

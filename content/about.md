@@ -4,7 +4,7 @@ title: About me
 
 *Please read what I'm [doing now][now]!.*
 
-Hi. My name is Robert van Bregt. I am born and raised in [Rotterdam][rotterdam]. 
+Hi. My name is Robert van Bregt. I am born and raised in [Rotterdam][rotterdam].
 From a young age, I have been fascinated by the opportunities and possibilities that computers can offer us to make our lives easier, better, more beautiful and more fun.
 
 > Try and leave this world a little better than you found it [...]
@@ -13,8 +13,8 @@ From a young age, I have been fascinated by the opportunities and possibilities 
 
 ## Private life
 
-Always curious about [the latest technological developments][tweakers]. 
-[Online privacy and freedom][bitsoffreedom] advocate. 
+Always curious about [the latest technological developments][tweakers].
+[Online privacy and freedom][bitsoffreedom] advocate.
 [Home automator](/tags/domotics).
 [Code tinkerer](/tags/code).
 Spectacles wearer.
@@ -45,10 +45,10 @@ Very occasionally I will also post links to products and services for which I re
 [cv]: {{< ref "/cv" >}}
 [contact]: {{< ref "/contact" >}}
 [support]: {{< ref "/support" >}}
-[tweakers]: https://tweakers.net/nieuws
-[bitsoffreedom]: https://www.bitsoffreedom.nl/doneren
-[drop]: https://www.matthijsshop.nl/Brusselsmanneke
-[chocolade]: https://tonyschocolonely.com/nl/nl
-[rotterdam]: https://www.rotterdam.nl/
-[linkedin]: https://linkedin.com/in/robertvanbregt
-[scouts]: https://en.wikisource.org/wiki/Last_message_to_scouts
+[tweakers]: <https://tweakers.net/nieuws>
+[bitsoffreedom]: <https://www.bitsoffreedom.nl/doneren>
+[drop]: <https://www.matthijsshop.nl/Brusselsmanneke>
+[chocolade]: <https://tonyschocolonely.com/nl/nl>
+[rotterdam]: <https://www.rotterdam.nl/>
+[linkedin]: <https://linkedin.com/in/robertvanbregt>
+[scouts]: <https://en.wikisource.org/wiki/Last_message_to_scouts>

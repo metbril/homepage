@@ -11,5 +11,5 @@ Een beetje voorspelbaar verhaal met Bruce Willis in een stereotype rol van polit
 
 Gezien op Netflix.
 
-https://www.moviemeter.nl/film/79144
-https://www.imdb.com/title/tt1925431/
+<https://www.moviemeter.nl/film/79144>
+<https://www.imdb.com/title/tt1925431/>

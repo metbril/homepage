@@ -15,14 +15,14 @@ If you already use PGP, then use [my Protonmail public key](/key.asc) with a sui
 
 ## Messaging
 
-However, I prefer short text messages, via [Signal](https://signal.org/nl/) in particular. Signal is a [privacy friendly alternative to WhatsApp](https://www.fixjeprivacy.nl/tip/ruil-whatsapp-in-voor-een-privacyvriendelijk-alternatief/). 
+However, I prefer short text messages, via [Signal](https://signal.org/nl/) in particular. Signal is a [privacy friendly alternative to WhatsApp](https://www.fixjeprivacy.nl/tip/ruil-whatsapp-in-voor-een-privacyvriendelijk-alternatief/).
 I also use Apple iMessage and plain old SMS.
 
 ## Elsewhere
 
 You can also find me elsewhere on the Internet, for example:
 
-- [LinkedIn](https://www.linkedin.com/in/robertvanbregt/) 
+- [LinkedIn](https://www.linkedin.com/in/robertvanbregt/)
 - [Mastodon](https://mastodon.social/@metbril)
-- [GitHub](https://github.com/metbril/) 
-- [GitLab](https://gitlab.com/metbril/) 
+- [GitHub](https://github.com/metbril/)
+- [GitLab](https://gitlab.com/metbril/)

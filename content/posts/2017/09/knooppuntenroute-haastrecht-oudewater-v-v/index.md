@@ -46,4 +46,4 @@ De beschreven route loopt langs de knooppunten:
 
 tussen knooppunten …
 
-http://zuidholland.wandelen123.nl/
+<http://zuidholland.wandelen123.nl/>
