@@ -1,0 +1,14 @@
+# Fastmail referral
+/r/fastmail https://ref.fm/u2869765 302
+
+# Sync.com referral
+/r/sync https://www.sync.com/?_sync_refer=32fb708c0 302
+
+# WordPress default feed
+/feed /index.xml 301
+
+# WordPress categories
+/category/* /categories/:splat 301
+
+# WordPress tags
+/tag/*  /tags/:splat 301
