@@ -6,6 +6,10 @@
 
 This is the repository for my personal homepage, hosted at https://vanbregt.eu/ that used to live at https://robertvanbregt.nl/
 
+## CI pipeline
+
+Deployment of the site is fully automated. For every push to the main branch, the markdown content is linted. When succesful, the site is automatically built and deployed to Codeberg Pages.
+
 ## Permalinks
 
 Permalinks naar berichten zijn altijd een pad vanaf de root van de server met `/<jaar>/<maand>/<dag>/<slug>/`. Deze staat los van de organisatie van de content in het CMS.
