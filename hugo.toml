@@ -1,6 +1,11 @@
 # Base url is overwritten in netlify.toml
 baseUrl   = "https://www.vanbregt.eu/"
 defaultContentLanguage = "en"
+title = "Robert van Bregt"
+
+# copyright is used in internal RSS template
+# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml
+copyright = "© Copyright 2003-2024 Robert van Bregt"
 
 theme = "archie"
 
@@ -30,6 +35,8 @@ mainSections = [ "posts" ]
 paginate     = 10         # default = 10
 paginatePath = "pagina"   # default = "page"
 
+summaryLength = 30  # default 70
+
 canonifyUrls = true
 
 pluralizeListTitles = false
@@ -44,28 +51,77 @@ googleAnalytics = ""
 # content front matter format
 metaDataFormat = "yaml"
 
-summaryLength = 30  # default 70
-
 enableRobotsTXT = true
 
-# explicitly specify taxonomies for series support
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+[[menu.main]]
+  name = "Posts"
+  pageRef = "posts"
+  weight = 1
 
-[privacy]
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
+[[menu.main]]
+  name =  "About"
+  pageRef = "about"
+  weight = 10
 
-[services.rss]
-  limit = 10
+[[menu.main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 190
+
+[params]
+
+  # ---------- official and common parameters ----------
+
+  # author      = "Robert van Bregt"
+  description = "Persoonlijke website van Robert van Bregt"
+  keywords    = "blog, persoonlijk"
+  images      = ["/img/avatar.jpg"]  # twitter cards
+  avatarURL   = "/img/avatar.jpg"
+  favicon     = "/favicon.ico"
+
+  # dateFormat = "2 January 2006"
+  dateFormat = "02-01-2006"
+
+  # "See also" post count
+  maxSeeAlsoItems = 5
+
+  commit = "https://github.com/metbril/home/tree/"
+
+  rtl    = false
+
+  math   = false
+
+  # some markdown allowed
+  license = "Unless otherwise noted, all written content on this site is licenced with a [CC BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/)."
+
+  [params.author]
+    # name and email are used in internal RSS template
+    # https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml
+    name  = "Robert van Bregt"
+    email = "contact.rjib@vanbregt.eu"
+
+    # custom properties
+    url   = "https://www.vanbregt.eu/"
+    photo = "/img/photo.jpg"
+
+  # [params.social]
+  #   # Twitter meta card
+  #   twitter = "robertvanbregt"
+
+  # ---------- Archie theme specific parameters ----------
+
+  useCDN = false
+
+  # at least one entry is required to build site
+  [[params.social]]
+    name = "GitHub"
+    icon = "github"
+    url = "https://github.com/metbril"
 
 [permalinks]
   # Specify for each section (= folder name)
@@ -86,99 +142,22 @@ enableRobotsTXT = true
   # :slug        | the content’s slug (or title if no slug is provided in the front matter)
   # :filename    | the content’s filename (without extension)
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[privacy]
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
 
-[params]
-  [params.author]
-    # name and email are used in internal RSS template
-    name  = "Robert van Bregt"
-    email = "contact.rjib@vanbregt.eu"
+[services.rss]
+  limit = 10
 
-    url   = "https://www.vanbregt.eu/"
-    photo = "/img/photo.jpg"
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
-  # [params.social]
-  #   # Twitter meta card
-  #   twitter = "robertvanbregt"
+# explicitly specify taxonomies for series support
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
-  # ---------- Archie theme specific parameters ----------
-
-  useCDN = false
-
-  [[params.social]]
-    name = "GitHub"
-    icon = "github"
-    url = "https://github.com/metbril"
-
-  # ---------- official and common parameters ----------
-
-  author      = "Robert van Bregt"
-  description = "Persoonlijke website van Robert van Bregt"
-  keywords    = "blog, persoonlijk"
-  images      = ["/img/avatar.jpg"]  # twitter cards
-  avatarURL   = "/img/avatar.jpg"
-  favicon     = "/favicon.ico"
-
-  # dateFormat = "2 January 2006"
-  dateFormat = "02-01-2006"
-
-  # See also post count
-  maxSeeAlsoItems = 5
-
-  commit = "https://github.com/metbril/robertvanbregt.nl/tree/"
-
-  rtl    = false
-
-  math   = false
-
-  # some markdown allowed
-  license = "Unless otherwise noted, all written content on this site is licenced with a [CC BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/)."
-
-[languages.en]
-
-  languageCode = "en"
-  languageName = "English"
-  languageDirection = "ltr"
-  weight = 2
-
-  title = "Robert van Bregt"
-  # copyright is used in internal RSS template
-  copyright = "&copy; 2003-2023 Robert van Bregt"
-
-  [languages.en.author]
-    # 'name' and 'email' are used in internal RSS template
-    name = "Robert van Bregt"
-    email = "contact.rjib@vanbregt.eu"
-    ## for Congo: image in assets folder
-    image = "img/profile.jpg"
-    links = [
-      { mastodon = "https://mastodon.nl/@ro" },
-      { twitter = "https://twitter.com/robertvanbregt" },
-      { linkedin = "https://linkedin.com/in/robertvanbregt" },
-      { github = "https://github.com/metbril" },
-    ]
-
-    headline = "Like to makes the world a little better, starting with himself."
-    bio = "Experienced projectmanger in health IT. Privacy advocate. Home and personal automatator. Likes sciency, technology and anything computers."
-
-  [languages.en.params]
-    description = "Personal website of Robert van Bregt"
-    dateFormat = "2 January 2006"
-
-[[menu.main]]
-  name = "Posts"
-  pageRef = "posts"
-  weight = 1
-
-[[menu.main]]
-  name =  "About"
-  pageRef = "about"
-  weight = 10
-
-[[menu.main]]
-  name = "Contact"
-  pageRef = "contact"
-  weight = 190
