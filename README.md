@@ -1,4 +1,4 @@
-[![Netlify](https://img.shields.io/netlify/02f7a50c-4687-42da-a8c0-4fc97c730925?label=build)](https://app.netlify.com/sites/extraordinary-melomakarona-3a9ef1/deploys)
+[![CI status](https://ci.codeberg.org/api/badges/13532/status.svg)](https://ci.codeberg.org/repos/13532)
 [![Uptime Robot status](https://img.shields.io/uptimerobot/status/m788109163-4ff579b3c43afde55d7be936)](https://stats.uptimerobot.com/9987YCk75y/778967457)
 [![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m788109163-4ff579b3c43afde55d7be936)](https://stats.uptimerobot.com/9987YCk75y/778967457)
 
