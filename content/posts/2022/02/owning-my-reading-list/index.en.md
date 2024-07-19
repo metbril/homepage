@@ -22,6 +22,7 @@ At the moment, I am using the very good Reeder app on iPhone and iPad, and NetNe
 
 I now finally own my reading list.
 
+[bloglines]: https://en.wikipedia.org/wiki/Bloglines
 [greader]: https://en.wikipedia.org/wiki/Google_Reader
 [ttrss]: https://tt-rss.org/
 [feedwrangler]: https://feedwrangler.net/

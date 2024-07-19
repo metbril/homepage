@@ -1,6 +1,7 @@
 ---
 title: About me
 ---
+<!-- markdownlint-disable MD052 -->
 
 *Please read what I'm [doing now][now]!.*
 

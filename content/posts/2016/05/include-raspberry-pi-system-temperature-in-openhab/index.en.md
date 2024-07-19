@@ -54,8 +54,10 @@ The user `openhab` needs to be member of the `video` group to be able to run the
 
 Group memberships are only updated after a reboot.
 
-    sudo usermod -a -G video openhab
-    sudo reboot now
+```shell
+sudo usermod -a -G video openhab
+sudo reboot now
+```
 
 ### Create javascript transformation
 
@@ -69,36 +71,42 @@ Create a `milli.js` file (in transform folder) with this content:
 
 Add to `system.items` file:
 
-    // System temperatures
-    Group  System_Temperature_Chart (System, Charts)
-    Number System_Temperature_Chart_Period "Periode" (System)
-    Number System_Temperature_CPU "Temperature CPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[cat /sys/class/thermal/thermal_zone0/temp:60000:JS(milli.js)]" }
-    Number System_Temperature_GPU "Temperature GPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[/opt/vc/bin/vcgencmd measure_temp:60000:REGEX(temp=(.*?)'C)]" }
+```text
+// System temperatures
+Group  System_Temperature_Chart (System, Charts)
+Number System_Temperature_Chart_Period "Periode" (System)
+Number System_Temperature_CPU "Temperature CPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[cat /sys/class/thermal/thermal_zone0/temp:60000:JS(milli.js)]" }
+Number System_Temperature_GPU "Temperature GPU [%.1f °C]" <temperature> (System_Temperature_Chart) { exec="<[/opt/vc/bin/vcgencmd measure_temp:60000:REGEX(temp=(.*?)'C)]" }
+```
 
 ### Add persistence for items
 
 Add to `rrd4j.persist` file:
 
-    System_Temperature_Chart* : strategy = everyChange, everyMinute, restoreOnStartup
+```text
+System_Temperature_Chart* : strategy = everyChange, everyMinute, restoreOnStartup
+```
 
 ### Update sitemap
 
 Add to `default.sitemap` file:
 
-    Text item=System_Temperature_CPU label="Temperature [%.1f °C]" {
-        Frame {
-            Text item=System_Temperature_CPU
-            Text item=System_Temperature_GPU
-        }
-        Frame {
-            Switch item=System_Temperature_Chart_Period mappings=[0="1h", 1="4h", 2="8h", 3="12h", 4="24h"]
-            Chart  item=System_Temperature_Chart period=h   refresh=60000 visibility=[System_Temperature_Chart_Period==0, System_Temperature_Chart_Period=="Uninitialized"]
-            Chart  item=System_Temperature_Chart period=4h  refresh=60000 visibility=[System_Temperature_Chart_Period==1]
-            Chart  item=System_Temperature_Chart period=8h  refresh=60000 visibility=[System_Temperature_Chart_Period==2]
-            Chart  item=System_Temperature_Chart period=12h refresh=60000 visibility=[System_Temperature_Chart_Period==3]
-            Chart  item=System_Temperature_Chart period=D   refresh=60000 visibility=[System_Temperature_Chart_Period==4]
-        }
+```text
+Text item=System_Temperature_CPU label="Temperature [%.1f °C]" {
+    Frame {
+        Text item=System_Temperature_CPU
+        Text item=System_Temperature_GPU
     }
+    Frame {
+        Switch item=System_Temperature_Chart_Period mappings=[0="1h", 1="4h", 2="8h", 3="12h", 4="24h"]
+        Chart  item=System_Temperature_Chart period=h   refresh=60000 visibility=[System_Temperature_Chart_Period==0, System_Temperature_Chart_Period=="Uninitialized"]
+        Chart  item=System_Temperature_Chart period=4h  refresh=60000 visibility=[System_Temperature_Chart_Period==1]
+        Chart  item=System_Temperature_Chart period=8h  refresh=60000 visibility=[System_Temperature_Chart_Period==2]
+        Chart  item=System_Temperature_Chart period=12h refresh=60000 visibility=[System_Temperature_Chart_Period==3]
+        Chart  item=System_Temperature_Chart period=D   refresh=60000 visibility=[System_Temperature_Chart_Period==4]
+    }
+}
+```
 
 ## Sources
 

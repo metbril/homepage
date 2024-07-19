@@ -15,7 +15,7 @@ To complete the initial installation I SSH’ed to the Pi from a Terminal with c
 
     ssh pi@<ip-address>
 
-to run the configration tool (where *\\<ip-address>* is the dynamically assigned IP4 address e.g. “x.x.x.x”)
+to run the configration tool (where `<ip-address>` is the dynamically assigned IP4 address e.g. “x.x.x.x”)
 
     sudo raspi-config
 
