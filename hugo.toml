@@ -126,7 +126,6 @@ enableRobotsTXT = true
 [permalinks]
   # Specify for each section (= folder name)
   posts = "/:year/:month/:day/:slug/"
-  page = "/:slug/"
 
   # https://gohugo.io/content-management/urls/#permalink-configuration-values
   # :year        | the 4-digit year

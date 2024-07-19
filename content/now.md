@@ -1,7 +1,7 @@
 ---
 title: What I'm doing now
-slug: now
 ---
+
 This [now page](http://nownownow.com/about) was last updated 17 December 2023.
 
 ## Enabling nurses to work mobile digitally

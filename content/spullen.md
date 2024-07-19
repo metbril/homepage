@@ -1,7 +1,7 @@
 ---
 title: My stuff
-slug: spullen
 ---
+
 {{< disclosure >}}
 
 Dit is een overzicht van de spullen die ik op dit moment in mijn leven gebruik en ook aan iedereen kan aanbevelen.

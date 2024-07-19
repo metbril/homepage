@@ -1,6 +1,5 @@
 ---
 title: About me
-slug: about
 ---
 
 *Please read what I'm [doing now](/now)!.*

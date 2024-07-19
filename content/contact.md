@@ -1,6 +1,5 @@
 ---
 title: Contact
-slug: contact
 ---
 :wave: Hi. Nice to see you.
 

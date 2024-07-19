@@ -1,6 +1,5 @@
 ---
 title: Projects I have worked on
-slug: projects
 ---
 
 These are some personal projects I am currently working on or have worked on over the years. And open source projects I have notably contributed to.
