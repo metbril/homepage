@@ -1,0 +1,7 @@
+{{- with .Get "key" }}
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/{{ . }}" width="597" height="486" frameborder="0"
+  marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe>
+{{- end }}
+{{- with .Get "page" }}
+<div><a href="https://www.slideshare.net/slideshow/{{ . }}">link</a></div>
+{{- end }}
