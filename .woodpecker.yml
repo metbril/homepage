@@ -16,7 +16,7 @@ when:
   - branch:
       exclude: pages
   - event: pull_request
-    branch: $CI_REPO_DEFAULT_BRANCH
+    branch: ${CI_REPO_DEFAULT_BRANCH}
   - event: push
 
 # Recursive cloning is used to fully clone the themes given as Git submodules
@@ -80,6 +80,6 @@ steps:
       - git push
     when:
       - event: push
-        branch: main
+        branch: ${CI_REPO_DEFAULT_BRANCH}
     depends_on:
       - build
