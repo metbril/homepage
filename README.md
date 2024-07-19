@@ -10,6 +10,10 @@ This is the repository for my personal homepage, hosted at https://vanbregt.eu/ 
 
 Deployment of the site is fully automated. For every push to the main branch, the markdown content is linted. When succesful, the site is automatically built and deployed to Codeberg Pages.
 
+### markdownlint-cli2
+
+There are multiple linters for markdown. I choose markdownlint-cli2, since it is under active development, can be used as pre-commit, has a VSCode plugin and can be installed through brew and run from the commandline.
+
 ## Permalinks
 
 Permalinks naar berichten zijn altijd een pad vanaf de root van de server met `/<jaar>/<maand>/<dag>/<slug>/`. Deze staat los van de organisatie van de content in het CMS.
