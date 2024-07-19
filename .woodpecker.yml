@@ -29,10 +29,9 @@ clone:
 steps:
   # TODO: lint markdown source
   lint:
-    image: debian:stable-slim
+    image: davidanson/markdownlint-cli2:latest
     commands:
-      - echo linting...
-      - sleep 3
+      - markdownlint-cli2 "content/**/*.md"
     when:
       - event: [push, pull_request]
 
