@@ -1,6 +1,5 @@
 ---
 title: "Golf QOTW #1"
-slug: golf-qotw-1
 date: '2009-09-25T10:40:55+00:00'
 tags: [golf,humor,quote,spreuk]
 # cspell:ignore qotw
