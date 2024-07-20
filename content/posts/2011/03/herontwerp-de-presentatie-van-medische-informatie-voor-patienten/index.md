@@ -1,6 +1,7 @@
 ---
 title: Herontwerp de presentatie van medische informatie voor patiënten
-slug: herontwerp-de-presentatei-van-medische-informatie-voor-patienten
+# cspell:disable-next-line
+slug: herontwerp-de-presentatie-van-medische-informatie-voor-patienten
 date: '2011-03-18T14:57:43+00:00'
 # cspell:ignore goetz
 ---
