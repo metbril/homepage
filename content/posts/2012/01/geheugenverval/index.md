@@ -5,6 +5,7 @@ tags:
     - photography
 categories:
     - Technology
+# cspell:ignore dscm
 ---
 ![microdrive](microdrive.jpg "Hitachi DSCM-11000 Microdrive")
 

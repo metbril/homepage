@@ -4,6 +4,7 @@ date: '2009-08-20T07:52:28+00:00'
 taxonomy:
     migration-status: review
 tags: [campagne,golf,humor,zon]
+# cspell:ignore zonkrachtbericht pdf
 ---
 [![Zon Verstandig Golf](/wp-content/uploads/2009/08/zon-verstandig-golf.jpg "Zon Verstandig Golf")](http://www.zonverstandig.nl/)
 

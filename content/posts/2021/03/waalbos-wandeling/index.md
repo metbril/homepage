@@ -5,6 +5,7 @@ images:
  - kersenboom-rijsoord.jpeg
 categories: [Outdoor]
 tags: [wandelen,route]
+# cspell:ignore rijsoord, waalbos
 ---
 Het was opnieuw tijd voor een weekend-wandeling. We hadden geen zin in een rondje vanuit huis, dus zocht ik een route dichtbij huis, in een natuurlijke omgeving. Die ook niet te druk zou zijn. Het werd een leuke route door het nieuwe natuurgebied [Waalbos](https://onswaalbos.nl/).
 

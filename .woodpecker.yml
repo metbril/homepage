@@ -35,12 +35,14 @@ steps:
     when:
       - event: [push, pull_request]
 
-  # TODO: spell check markdown source
   spell:
-    image: debian:stable-slim
+    image: ghcr.io/streetsidesoftware/cspell:latest
     commands:
-      - echo spell checking...
-      - sleep 3
+      - node --version
+      - npm --version
+      - npm install -g @cspell/dict-nl-nl
+      - cspell-cli link add @cspell/dict-nl-nl
+      - cspell-cli --locale "nl,en-GB" "content/**/*.md"
     when:
       - event: [push, pull_request]
 

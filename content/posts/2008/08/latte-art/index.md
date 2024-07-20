@@ -10,11 +10,11 @@ tags:
     - nerd
     - video
     - youtube
-catagories:
+categories:
     - Technology
 ---
 
-Koffieliefhebber en geek tegelijk? Bouw dan een latte art printing machine, zoals in bijgaand filmje te zien is.
+Koffieliefhebber en geek tegelijk? Bouw dan een latte art printing machine, zoals in bijgaand filmpje te zien is.
 
 [youtube=https://youtube.com/watch?v=PjgVeJkdBn0]
 

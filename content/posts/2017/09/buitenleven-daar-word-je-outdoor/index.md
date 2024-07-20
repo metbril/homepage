@@ -6,6 +6,7 @@ tags:
     - quote
 categories:
     - Outdoor
+# cspell:ignore mwah mwahnl
 ---
 
 Vanochtend kwam ik onderweg op een reclamebord een spreuk tegen. Voor mij nieuw, maar het leverde een glimlach op, dus leuk om te onthouden en nog eens ergens te gebruiken.

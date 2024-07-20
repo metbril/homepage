@@ -5,6 +5,7 @@ tags: [computer,netwerk,openhab,huisautomatisering,automation]
 syndicateto:
     - https://community.openhab.org/t/how-to-monitor-a-dynamic-wan-ip-address/11368
     - https://github.com/openhab/openhab1-addons/wiki/Samples-Tricks#how-to-monitor-a-dynamic-wan-ip-address
+# cspell:ignore syndicateto icanhazip
 ---
 <!-- markdownlint-disable MD052 -->
 *(Dit artikel heb ik in het Engels eerder geplaatst op het [openHAB forum](https://community.openhab.org/t/how-to-monitor-a-dynamic-wan-ip-address/11368) en in de [openHAB wiki](https://github.com/openhab/openhab1-addons/wiki/Samples-Tricks#how-to-monitor-a-dynamic-wan-ip-address))*
@@ -23,7 +24,7 @@ Websites zoals [icanhazip](http://icanhazip.com) geven je publieke IP-adres teru
 
 ## Voorwaarden
 
-Voor deze toepassing is het nodig dat je de HTTP Binding al hebt geinstalleerd.
+Voor deze toepassing is het nodig dat je de HTTP Binding al hebt geïnstalleerd.
 
 Opmerking: Wees aardig voor de website die je aanroept.  
  Roep deze liefst eens per 5 minuten aan, maar zeker niet vaker dan iedere minuut.

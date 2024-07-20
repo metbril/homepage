@@ -4,6 +4,7 @@ post_id: 1330
 date: '2011-03-25T14:32:29+00:00'
 taxonomy:
     migration-status: review
+# cspell:ignore onswipe
 ---
 ![onswipe plugin](/wp-content/uploads/2011/03/onswipe-300x55.png "onswipe")
 

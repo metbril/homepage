@@ -3,6 +3,7 @@ title: "Nieuwe Get a Mac commercials: &#8220;Surprise&#8221; en &#8220;Top of th
 slug: nieuwe-get-a-mac-commercials-surprise-en-top-of-the-line
 date: '2009-08-25T11:04:38+00:00'
 tags: [apple,commercial,humor,mac,pc,video,windows]
+# cspell:words tuaw
 ---
 ![apple](/wp-content/uploads/2009/08/apple.gif?w=150 "apple")Apple heeft weer twee nieuwe [commercials](http://www.apple.com/getamac/ads/) uitgebracht in haar “[Get a Mac](http://www.apple.com/getamac/)” reeks.
 

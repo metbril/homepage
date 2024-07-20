@@ -6,6 +6,7 @@ author: Robert van Bregt
 tags: [indieweb, rss]
 categories:
   - Technology
+# cSpell:ignore bloglines,feedly,softaculous
 ---
 
 For years I have been reading news and blogs via RSS. At first via [Bloglines][bloglines] and later [Google Reader][greader]. When that was no longer possible, I searched for alternatives for a while. After some time with hosted [FeedWrangler][feedwrangler] and self-hosted [TinyTinyRSS][ttrss], I eventually settled with [Feedly][feedly]. Until recently. The fact that a lot of my personal, private interests are processed by a company made me look out for privacy friendly options.

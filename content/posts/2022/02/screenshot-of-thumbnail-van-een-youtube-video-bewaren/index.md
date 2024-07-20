@@ -6,7 +6,10 @@ author: Robert van Bregt
 tags: [firefox,youtube]
 categories:
   - Technology
+# cspell:disable
 featured_image: youtube-kurzgezagt-canyoufixclimatechange-snapshot.jpg
+# cspell:enable
+# cspell:ignore kurzgezagt
 ---
 
 Soms wil je een ‘still’ van een Youtube video bewaren. Bijvoorbeeld om [vanaf je website door te linken](https://www.zylstra.org/blog/2021/09/video-embeds-all-removed/). Of om in een presentatie te verwerken.
@@ -22,4 +25,5 @@ De browser vraagt dan waar je het screenshot wil bewaren. Klaar.
 
 Hieronder vind je als voorbeeld een snapshot van [een video van Kurzgezagt over klimaatverandering](https://www.youtube.com/watch?v=yiw6_JakZFc).
 
+<!-- cspell:disable -->
 ![youtube video snapshot](youtube-kurzgezagt-canyoufixclimatechange-snapshot.jpg)

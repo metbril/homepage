@@ -10,6 +10,7 @@ syndicateto:
     - 'https://github.com/openhab/openhab1-addons/wiki/Raspberry-Pi-System-Temperature'
 categories:
     - Technology
+# cspell:ignore milli vcgencmd usermod transform syndicateto systeminfo sigar vchi
 ---
 
 (This post is also contributed to the openHAB wiki)

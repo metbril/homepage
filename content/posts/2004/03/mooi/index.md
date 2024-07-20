@@ -2,6 +2,7 @@
 title: Mooi
 date: '2004-03-18T21:46:39+00:00'
 tags: [klimmen]
+# cspell:ignore fickweiler
 ---
 Gisterenavond heb ik een dialezing door [Martin Fickweiler](http://www.bigwall.nl/) bezocht, die werd georganiseerd door de [NKBV Rotterdam](http://www.nkbv-rotterdam.nl/). Martin is met zijn klimmaatje Ronald Louman het afgelopen jaar in [Groenland](http://www.bigwall.nl/2003nalumasortoq/index.htm) en [Patagonië](http://www.bigwall.nl/2004torresdelpaine/torresdelpaine.htm) geweest en vertelde daar met veel enthousiasme over.
 

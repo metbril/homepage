@@ -9,6 +9,7 @@ tags:
 categories:
   - Technology
 featured_image: pexels-stanislav-kondratiev-5500228.jpg
+# cSpell:words intune,kondratiev
 ---
 
 Sinds [Covid-19 onder ons]({{< ref "een-jaar-covid-19" >}}) is, werk ik vooral vanuit huis. Gelukkig laat mijn werk dit prima toe, en stimuleert [mijn werkgever](https://maasstadziekenhuis.nl/) haar medewerkers ook dit vooral te doen. Inmiddels werk ik dus alweer een jaar thuis. Om het thuiswerken voor mijzelf zo prettig mogelijk te maken, heb ik mijn werkplek met behulp van technische zaken geschikt gemaakt.
@@ -28,11 +29,11 @@ Bij de Surface ontving ik een [Arc Touch Bluetooth muis](https://en.wikipedia.or
 
 ## Toetsenbord
 
-Het in de cover van de Surface ingebouwde toetsenbord is leuk voor kortdurend gebruik, maar als je er dag-in-dag-uit mee werkt, dan is dat ergonomisch slecht. Daarom heb ik een standaard USB-toetsenbord van Dell opgehaald op het werk. Die toetsenborden zijn daar in overvloed op voorraad, kosten bijna niets (voor mij zelfs gratis) en typen naar tevredenheid weg. Ik weet nog niet of ik deze ooit ga vervangen voor een prive-alternatief, maar voorlopig gaat het prima.
+Het in de cover van de Surface ingebouwde toetsenbord is leuk voor kortdurend gebruik, maar als je er dag-in-dag-uit mee werkt, dan is dat ergonomisch slecht. Daarom heb ik een standaard USB-toetsenbord van Dell opgehaald op het werk. Die toetsenborden zijn daar in overvloed op voorraad, kosten bijna niets (voor mij zelfs gratis) en typen naar tevredenheid weg. Ik weet nog niet of ik deze ooit ga vervangen voor een privé-alternatief, maar voorlopig gaat het prima.
 
 ## Beeldscherm
 
-De Surface is lekker compact en draagbaar, maar het nadeel daarvan is natuurlijk dat het scherm vrij kleine afmetingen heeft. Daarom heb ik al snel een grote monitor aangeschaft. Een scherm met powered USB-C en 4K-resolutie was een prijsklasse te hoog voor prive-aanschaf. Mijn minimale eisen waren een beeldschermdiagonaal van 27″ en tenminste 1440p. Aansluiting moesten tenminste HDMI en DVI worden. Die laatste om ook nog een wat oudere MacBook te kunnen aansluiten.
+De Surface is lekker compact en draagbaar, maar het nadeel daarvan is natuurlijk dat het scherm vrij kleine afmetingen heeft. Daarom heb ik al snel een grote monitor aangeschaft. Een scherm met powered USB-C en 4K-resolutie was een prijsklasse te hoog voor privé-aanschaf. Mijn minimale eisen waren een beeldschermdiagonaal van 27″ en tenminste 1440p. Aansluiting moesten tenminste HDMI en DVI worden. Die laatste om ook nog een wat oudere MacBook te kunnen aansluiten.
 
 Mijn keuze viel op de [AOC Q2790PQU](https://eu.aoc.com/nl/monitors/q2790pqu-bt/support). Die kwam destijds erg goed uit [de monitortest van Hardware.info](https://nl.hardware.info/artikel/9903/monitor-voor-thuiswerken-6-tips-en-6-aanraders). Door de “intelligente lockdown” tijdens de eerste Corona-golf gingen de prijzen wel een beetje omhoog, en werden sommige producten voor thuiswerken slecht leverbaar, maar in het geval van de monitor viel dat alles mee. Met uitzondering van het waardeloze geluid uit de ingebouwde speakers ben ik er bijzonder tevreden mee.
 

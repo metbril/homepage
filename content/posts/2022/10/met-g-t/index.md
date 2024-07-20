@@ -1,6 +1,7 @@
 ---
 title: "Met g-t"
 date: 2022-10-30T08:33:50+01:00
+# cspell:ignore naamverhaspeling
 ---
 
 Leuk [idee van Wouter, schrijven over naamverhaspeling](https://brainbaking.com/post/2022/10/name-pronunciation-and-spelling-mistakes/). Laat ik, in navolging van [Max](https://doenietzomoeilijk.nl/archief/over-het-verhaspelen-van-namen) en [Ton](https://www.zylstra.org/blog/2022/10/mister-anton/) hier ook eens mijn eigen ervaring delen.

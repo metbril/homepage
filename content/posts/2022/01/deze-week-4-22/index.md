@@ -6,6 +6,7 @@ author: Robert van Bregt
 tags: [corona]
 categories:
   - Deze Week
+# cspell:ignore vijfhonderdvierenzeventigste
 ---
 
 Deze week:

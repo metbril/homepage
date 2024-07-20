@@ -1,0 +1,10 @@
+# Geographical locations
+algerabrug
+goerree
+puntegaalstraat
+spijkenisserbrug
+willemsbrug
+mosel
+trarbach
+traben
+tlatelolco

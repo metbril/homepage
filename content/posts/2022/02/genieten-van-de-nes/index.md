@@ -7,6 +7,7 @@ tags: [wandelen,route,track]
 categories:
   - Outdoor
 featured_image: nespolder-minibrug.jpg
+# cspell:words nespolder
 ---
 Steeds als we over de N210 rijden en we komen in de buurt van Bergambacht langs het natuurgebied [De Nespolder](https://www.zuidhollandslandschap.nl/nl/page/140), zeggen we tegen elkaar dat we daar eens een wandeling moeten maken. En vandaag is het zover. De weersverwachting is koud, winderig en zonnig. Lekker wandelweertje, dus.
 
@@ -22,7 +23,7 @@ Even verder kom ik bij een voetveer. Het is zelfbediening. Of het door de harde 
 
 {{< figure src="nespolder-minibrug.jpg" caption="Paaltjes en mini-bruggetjes">}}
 
-Even verder laat ik de ganzen achter me, en zie ik een aantal hazen wegschieten. Ik zig-zag wat door de polder, volg de gele paaltjes, loop over wat mini-bruggetjes en klim wat over hektrapjes. Even later sta ik weer bij mijn auto. Heerlijk gewandeld. Wel even de schoenen uittrekken voor het instappen. Op weg naar huis, voor een lunch met iets warms.
+Even verder laat ik de ganzen achter me, en zie ik een aantal hazen wegschieten. Ik zig-zag wat door de polder, volg de gele paaltjes, loop over wat mini-bruggetjes en klim wat over hek-trapjes. Even later sta ik weer bij mijn auto. Heerlijk gewandeld. Wel even de schoenen uittrekken voor het instappen. Op weg naar huis, voor een lunch met iets warms.
 
 Wandelknooppunten: 59 – 58 – 82 – 81 – 59
 
@@ -30,4 +31,5 @@ Moeilijkheidsgraad: gemiddeld
 
 Waardering: 3/5
 
+<!-- cspell:disable -->
 <!-- [osm_map_v3 map_center=”autolat,autolon” zoom=”autozoom” width=”100%” height=”450″ file_list=”../../../../wp-content/uploads/gpx/Nespolder.gpx” file_color_list=”purple” control=”fullscreen” file_title=”Nespolder” ] -->

@@ -5,6 +5,7 @@ date: '2008-02-10T16:29:36+00:00'
 taxonomy:
     migration-status: review
 tags: [download,humor,joran,mp3,muziek,download,humor,joran,mp3,muziek]
+# cspell:ignore joran somertijd
 ---
 Nog een twijfelgevalletje… [Somertijd](http://www.somertijd.nl) heeft op de melodie van Boten Anna van Bass Hunter een nieuwe versie gemaakt: [Boten Joran](http://www.zshare.net/audio/72842899d85a62)!
 

@@ -6,4 +6,4 @@ taxonomy:
     migration-status: review
 tags: [fietsen]
 ---
-[![Tour de Sloggi 2010](/wp-content/uploads/2010/07/tourdesloggi2010.jpg "tourdesloggi2010")](/wp-content/uploads/2010/07/tourdesloggi2010.jpg)
+[![Tour de Sloggi 2010](/wp-content/uploads/2010/07/tourdesloggi2010.jpg "tour de sloggi 2010")](/wp-content/uploads/2010/07/tourdesloggi2010.jpg)

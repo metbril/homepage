@@ -5,7 +5,7 @@ title: Contact
 
 ## E-mail
 
-The most convienient way to get in touch is to [send an e-mail](mailto:contact.rjib@vanbregt.eu?subject=Hey).
+The most convenient way to get in touch is to [send an e-mail](mailto:contact.rjib@vanbregt.eu?subject=Hey).
 I usually respond to messages within 24 hours, but please be patient if it takes a little longer. :wink:
 
 Confidential messages, like private pictures or documents with personal data, should be sent **encrypted** to my e-mail address **robertvanbregt** [at] [ProtonMail.com](https://protonmail.com/).

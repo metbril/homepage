@@ -10,6 +10,7 @@ tags:
   - huisautomatisering
 categories:
   - Technology
+# cspell:ignore idasen,IDÅSEN,linak
 ---
 
 Sinds het begin van de pandemie [werk ik veel thuis]({{< ref "een-jaar-covid-19" >}}). In het begin met bestaande apparatuur, en bestaand meubilair. Maar in de loop van de tijd heb ik mijn werkplek steeds een beetje verbeterd. Een van de zaken waarin ik heb geïnvesteerd, is een zit-stabureau. Via mijn werkgever kon ik met een voorschotregeling een vergoeding krijgen, maar dan had ik de keuze uit één enkel model dat me niet echt beviel. Uiteindelijk ben ik daarna terecht gekomen bij IKEA. Daar viel mijn keus op de zwarte uitvoering van het robuuste model [IDÅSEN](https://www.ikea.com/nl/nl/cat/idasen-bureaus-47426/) in 160×80 cm.
@@ -24,7 +25,7 @@ Het mooie daarvan is, en eerlijk gezegd was dat stiekem mede ook beetje een rede
 
 LINAK, de fabrikant van de module, heeft voor de draadloze besturing van de module een eigen app “Desk Control” gemaakt. Die heb ik geprobeerd en dat werkt op zich prima. Maar de app ondersteunt geen Siri-opdrachten. Maar er zijn inmiddels ook onafhankelijke ontwikkelaars die een alternatieve app hebben ontwikkeld. Een beetje zoeken in de AppStore levert meerdere resultaten. De app waar ik eindelijk op ben uitgekomen is Idasen Controller van Tiago Alves. Een gratis app (want ik ben Nederlander), die ook nog eens keurig Siri-opdrachten ondersteund. En inderdaad, daarmee is het gelukt het instellen van mijn bureau te automatiseren.
 
-Nadat je de app hebt geinstalleerd, moet je deze calibreren, zodat de app weet welke hoogte in centimeters bij de laagste stand hoort. Na de calibratie kun je eenvoudig voorkeuren instellen. Ik heb er 3 ingesteld: ‘Stahoogte’, ‘Zithoogte’ en ‘Halverwege’. Die laatste, daar kom ik verderop op terug.
+Nadat je de app hebt geïnstalleerd, moet je deze calibreren, zodat de app weet welke hoogte in centimeters bij de laagste stand hoort. Na de calibratie kun je eenvoudig voorkeuren instellen. Ik heb er 3 ingesteld: ‘Stahoogte’, ‘Zithoogte’ en ‘Halverwege’. Die laatste, daar kom ik verderop op terug.
 
 Nadat je de hoogtes in de app juist hebt ingesteld, kun je ze met een klik op het scherm kiezen. Magisch. Maar dat kan beter.
 

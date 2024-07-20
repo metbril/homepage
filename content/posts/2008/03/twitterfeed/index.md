@@ -7,6 +7,7 @@ tags:
     - twitter
 categories:
   - Technology
+# cspell:words twitterfeed
 ---
 
 ![Twitter Bird](/images/2008/05/twitter-bird.gif?w=128)Weer iets nieuws ontdekt: [Twitterfeed](http://twitterfeed.wordpress.com/). Deze site zorgt ervoor dat alles wat je op je blog plaatst automatisch wordt opgenomen als een [tweet](http://www.twitter.com).

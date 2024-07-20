@@ -14,9 +14,9 @@ One day, I hope to become proficient in [Liberating Structures](https://liberati
 
 ## Living outdoors
 
-I can't wait for spring, to start traveling again with the camper we bought last August.
+I can't wait for spring, to start travelling again with the camper we bought last August.
 When looking for a purpose to go walking or cycling outdoors, I usually go [geocaching](https://www.geocaching.com).
 
 ## Automating home and life
 
-My wife and son sometimes get desparate when the lights fail to work after I have been tinkering with them. However, I still continue to enjoy smartening our home a lot. And automating the boring personal stuff. It's really satisfying to see new technology coming to life.
+My wife and son sometimes get desperate when the lights fail to work after I have been tinkering with them. However, I still continue to enjoy smartening our home a lot. And automating the boring personal stuff. It's really satisfying to see new technology coming to life.

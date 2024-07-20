@@ -2,6 +2,7 @@
 title: Jailbreak van mijn iPod Touch
 date: '2008-03-14T10:34:29+00:00'
 tags: [apple,hack,ipod,jailbreak]
+# cspell:ignore gejailbreakt geüpgrade
 ---
 ![iPod Touch](/images/2008/03/ipod_touch.thumbnail.jpg)Ik heb ’t geprobeerd. Met succes. Mijn 8GB iPod Touch is nu “gejailbreakt”. Wat een woord. Maar het moet nu wel mogelijk zijn om extra applicaties te installeren. Dat gaan we dus proberen…
 

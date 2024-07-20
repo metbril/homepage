@@ -2,6 +2,8 @@
 title: Steun Alpe d&#8217;HuZes 3 juni 2010
 slug: steun-alpe-dhuzes-3-juni-2010
 date: '2010-05-30T15:15:40+00:00'
+# cspell:words alpe d'huez dhuzes d’Huez
+# cspell:ignore hogeland kreijmborg stigchel
 ---
 Aanstaande donderdag, 3 juni 2010, wordt in Frankrijk de [Alpe d’HuZes](http://www.opgevenisgeenoptie.nl/) verreden. Ook een [team met collega’s](http://www.aszad6.nl/) van het [Albert Schweitzer ziekenhuis](http://www.asz.nl/) doet hier aan mee. Door middel van het zoveel mogelijk beklimmen van de beruchte [Alpe d’Huez](http://nl.wikipedia.org/wiki/Alpe_d'Huez) zamelen zij geld in voor [KWF](http://www.kwfkankerbestrijding.nl/). Steun hen! Via de foto kom je op de pagina waar je kunt doneren.
 

@@ -10,14 +10,15 @@ categories:
 ---
 For some years I have been using the [Car Wash custom component for Home Assistant][repo] to have an indication if it is a good idea or not to wash the family car. It's fairly simple. You define a weather sensor to use and you're done.
 
-What the car wash sensor actually does, is check for unfavorable current or forecasted weather conditions, precipitation and temperatures.
+What the car wash sensor actually does, is check for unfavourable current or forecasted weather conditions, precipitation and temperatures.
 
-Recently, Home Assisant changed [how weather forecasts are retrieved][hablog] and deprecated some functionality.
+Recently, Home Assistant changed [how weather forecasts are retrieved][hablog] and deprecated some functionality.
 
 As a thought experiment and to simplify my setup, I replace the car wash entity with a simple template binary sensor helper.
 
 The template is this:
 
+<!-- spell-checker: disable -->
 ```yaml
 {% set entity_id = 'weather.buienradar' %}
 {% set days_to_check = 4 %}
@@ -31,8 +32,9 @@ The template is this:
 {% set freezing = temps | select("lessthan", freeze_temp) | list | length != 0 %}
 {{ bad_condition or precipitation or freezing }}
 ```
+<!-- spell-checker: enable -->
 
-Additionaly, I have set the device type of the sensor to "Problem", so it will show an appropriate icon.
+Additionally, I have set the device type of the sensor to "Problem", so it will show an appropriate icon.
 
 ![Car wash sensor](./car-wash.png)
 

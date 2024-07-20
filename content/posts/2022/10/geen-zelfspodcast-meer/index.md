@@ -5,6 +5,7 @@ tags:
     - podcast
 categories:
     - Algemeen
+# cSpell:words zelfspodcast, reesema, siewertsz, schimmelpenninck, instagrammable, podimo
 ---
 
 Nog steeds vind ik de [Zelfspodcast][zelfspodcast] van [Jaap] en [Sander] een van de leukste [podcasts][podcast] die ik ooit luisterde. Inderdaad 2 vrienden die de spot drijven met zichzelf en elkaar. Het plezier spatte er vanaf. Zoals ze het zelf uitleggen:

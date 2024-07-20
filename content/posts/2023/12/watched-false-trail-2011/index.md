@@ -7,6 +7,7 @@ categories:
   - Watches
 rating: ⭐️⭐️⭐️⭐️
 network: HBO Max
+# cSpell:ignore jägarna
 ---
 Swedish film with many well-known actors. Fun and exciting story, but a little predictable at times. The film is the sequel to the 1996 film "The Hunters".
 

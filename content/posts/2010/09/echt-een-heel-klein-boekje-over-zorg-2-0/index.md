@@ -6,6 +6,7 @@ tags:
     - ebook
     - zorg
     - e-health
+# cspell:ignore bookstick
 ---
 
 [![Boekomslag van een heel klein boekje over zorg 2.0](cover.jpg)](http://www.eburon.nl/een_heel_klein_boekje_over_zorg_2_0_ebook)

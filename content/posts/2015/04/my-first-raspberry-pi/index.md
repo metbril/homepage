@@ -15,8 +15,8 @@ To complete the initial installation I SSH’ed to the Pi from a Terminal with c
 
     ssh pi@<ip-address>
 
-to run the configration tool (where `<ip-address>` is the dynamically assigned IP4 address e.g. “x.x.x.x”)
-
+to run the configuration tool (where `<ip-address>` is the dynamically assigned IP4 address e.g. “x.x.x.x”)
+<!-- cspell:disable-next-line -->
     sudo raspi-config
 
-In the tool I expanded the file system to all of my 16GB flash card, changed the default password for the ‘pi’ user and used the  internationalisation option to set the locale to ‘nl-UTF8’ en the timezone to ‘Europe/Amsterdam’.
+In the tool I expanded the file system to all of my 16GB flash card, changed the default password for the ‘pi’ user and used the  internationalisation option to set the locale to ‘nl-UTF8’ en the time zone to ‘Europe/Amsterdam’.
