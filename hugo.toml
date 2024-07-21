@@ -86,32 +86,37 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "Contact"
-  pageRef = "contact"
+  pageRef = "/contact"
   weight = 190
 
 [[menu.footer]]
   name = "privacy"
-  pageRef = "privacy"
+  pageRef = "/privacy"
   weight = 1
 
 [[menu.footer]]
   name = "legal"
-  pageRef = "legal"
+  pageRef = "/legal"
   weight = 1
 
 [[menu.footer]]
   name = "license"
-  pageRef = "license"
+  pageRef = "/license"
   weight = 1
 
 [[menu.footer]]
   name = "disclaimer"
-  pageRef = "disclaimer"
+  pageRef = "/disclaimer"
   weight = 1
 
 [[menu.footer]]
-  name = "feed"
-  url = "index.xml"
+  name = "follow"
+  pageRef = "/follow"
+  weight = 998
+
+[[menu.footer]]
+  name = "rss"
+  url = "/index.xml"
   weight = 999
 
 [params]
