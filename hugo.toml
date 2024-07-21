@@ -89,6 +89,31 @@ enableRobotsTXT = true
   pageRef = "contact"
   weight = 190
 
+[[menu.footer]]
+  name = "privacy"
+  pageRef = "privacy"
+  weight = 1
+
+[[menu.footer]]
+  name = "legal"
+  pageRef = "legal"
+  weight = 1
+
+[[menu.footer]]
+  name = "license"
+  pageRef = "license"
+  weight = 1
+
+[[menu.footer]]
+  name = "disclaimer"
+  pageRef = "disclaimer"
+  weight = 1
+
+[[menu.footer]]
+  name = "feed"
+  url = "index.xml"
+  weight = 999
+
 [params]
 
   # ---------- official and common parameters ----------
