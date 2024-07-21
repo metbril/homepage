@@ -58,10 +58,26 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
 
+# Give homepage weight -1 to force it before unweighed entries
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = -1
+
 [[menu.main]]
   name = "Posts"
   pageRef = "posts"
   weight = 1
+
+[[menu.main]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 3
 
 [[menu.main]]
   name =  "About"
