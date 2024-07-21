@@ -28,7 +28,7 @@ clone:
     settings:
       recursive: true
       submodule_override:
-+       theme/grotius: https://codeberg.org/r12t/hugo-grotius-v2.git
++       themes/grotius: https://codeberg.org/r12t/hugo-grotius-v2.git
 
 steps:
   # TODO: lint markdown source
