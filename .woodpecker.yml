@@ -20,11 +20,15 @@ when:
   - event: push
 
 # Recursive cloning is used to fully clone the themes given as Git submodules
+# Override ssh submodule:
+# https://woodpecker-ci.org/docs/usage/workflow-syntax#git-submodules
 clone:
   git:
     image: woodpeckerci/plugin-git
     settings:
       recursive: true
+      submodule_override:
++       theme/grotius: https://codeberg.org/r12t/hugo-grotius-v2.git
 
 steps:
   # TODO: lint markdown source
