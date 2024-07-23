@@ -28,5 +28,5 @@ steps:
       - cspell-cli link add @cspell/dict-nl-nl
       - cspell-cli --locale "nl,en-GB" "content/**/*.{md,markdown}"
     when:
-      - path: 'content/**/*.md'
+      - path: 'content/**/*.{md,markdown}'
     depends_on: []
