@@ -1,4 +1,4 @@
 ---
 title: Posts
 ---
-The full list of posts.
+The full list of all posts.
