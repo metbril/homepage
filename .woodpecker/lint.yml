@@ -19,6 +19,7 @@ steps:
       - markdownlint-cli2 "content/**/*.md"
     when:
       - path: 'content/**/*.md'
+    depends_on: []
 
   spell:
     image: ghcr.io/streetsidesoftware/cspell:latest
@@ -27,4 +28,5 @@ steps:
       - cspell-cli link add @cspell/dict-nl-nl
       - cspell-cli --locale "nl,en-GB" "content/**/*.(md,markdown)"
     when:
-      - path: 'content/**/*.(md,markdown)'
+      - path: '*.md'
+    depends_on: []
