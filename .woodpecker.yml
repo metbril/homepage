@@ -35,9 +35,10 @@ steps:
   lint:
     image: davidanson/markdownlint-cli2:latest
     commands:
-      - markdownlint-cli2 "content/**/*.md"
+      - markdownlint-cli2 "content/**/*.(md,markdown)"
     when:
       - event: [push, pull_request]
+        path: 'content/**/*.(md,markdown)'
 
   spell:
     image: ghcr.io/streetsidesoftware/cspell:latest
@@ -46,9 +47,10 @@ steps:
       - npm --version
       - npm install -g @cspell/dict-nl-nl
       - cspell-cli link add @cspell/dict-nl-nl
-      - cspell-cli --locale "nl,en-GB" "content/**/*.md"
+      - cspell-cli --locale "nl,en-GB" "content/**/*.(md,markdown)"
     when:
       - event: [push, pull_request]
+        path: 'content/**/*.(md,markdown)'
 
   # Build hugo static files
   build:
