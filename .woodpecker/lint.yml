@@ -10,6 +10,7 @@ clone:
   git:
     image: woodpeckerci/plugin-git
     settings:
+      # linting content does not require cloning the submodules
       recursive: false
 
 steps:
@@ -18,7 +19,7 @@ steps:
     commands:
       - markdownlint-cli2 "content/**/*.{md,markdown}"
     when:
-      - path: 'content/**/*.md'
+      - path: 'content/**/*.{md,markdown}'
     depends_on: []
 
   spell:
