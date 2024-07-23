@@ -61,9 +61,7 @@ steps:
       - hugo --minify
     when:
       - event: [push, pull_request]
-    depends_on:
-      - lint
-      - spell
+    depends_on: []
 
   publish:
     image: bitnami/git
