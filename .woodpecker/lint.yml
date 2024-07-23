@@ -6,6 +6,12 @@ when:
     branch:
       exclude: pages
 
+clone:
+  git:
+    image: woodpeckerci/plugin-git
+    settings:
+      recursive: false
+
 steps:
   lint-markdown:
     image: davidanson/markdownlint-cli2:latest
