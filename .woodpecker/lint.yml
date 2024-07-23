@@ -26,7 +26,7 @@ steps:
     commands:
       - npm install -g @cspell/dict-nl-nl
       - cspell-cli link add @cspell/dict-nl-nl
-      - cspell-cli --locale "nl,en-GB" "content/**/*.{md,markdown}"
+      - cspell-cli --locale "nl,en-GB" --no-progress "content/**/*.{md,markdown}"
     when:
       - path: 'content/**/*.{md,markdown}'
     depends_on: []
