@@ -1,0 +1,24 @@
+# lint.yml
+
+when:
+  # Exclude pipeline to be run on "pages" branch
+  - event: push
+    branch:
+      exclude: pages
+
+steps:
+  lint-markdown:
+    image: davidanson/markdownlint-cli2:latest
+    commands:
+      - markdownlint-cli2 "content/**/*.(md,markdown)"
+    when:
+      - path: 'content/**/*.(md,markdown)'
+
+  spell:
+    image: ghcr.io/streetsidesoftware/cspell:latest
+    commands:
+      - npm install -g @cspell/dict-nl-nl
+      - cspell-cli link add @cspell/dict-nl-nl
+      - cspell-cli --locale "nl,en-GB" "content/**/*.(md,markdown)"
+    when:
+      - path: 'content/**/*.(md,markdown)'

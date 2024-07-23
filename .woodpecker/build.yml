@@ -1,4 +1,4 @@
-# hugo.yml
+# build.yml
 #
 # Takes a repository with Hugo source, generates the static site and
 # pushes the result to Codeberg pages
@@ -13,11 +13,11 @@
 
 when:
   # Exclude pipeline to be run on "pages" branch
-  - branch:
+  - event: push
+    branch:
       exclude: pages
   - event: pull_request
     branch: ${CI_REPO_DEFAULT_BRANCH}
-  - event: push
 
 # Recursive cloning is used to fully clone the themes given as Git submodules
 # Override ssh submodule:
@@ -31,28 +31,6 @@ clone:
         themes/grotius: https://codeberg.org/r12t/hugo-grotius-v2.git
 
 steps:
-  # TODO: lint markdown source
-  lint:
-    image: davidanson/markdownlint-cli2:latest
-    commands:
-      - markdownlint-cli2 "content/**/*.(md,markdown)"
-    when:
-      - event: [push, pull_request]
-        path: 'content/**/*.(md,markdown)'
-
-  spell:
-    image: ghcr.io/streetsidesoftware/cspell:latest
-    commands:
-      - node --version
-      - npm --version
-      - npm install -g @cspell/dict-nl-nl
-      - cspell-cli link add @cspell/dict-nl-nl
-      - cspell-cli --locale "nl,en-GB" "content/**/*.(md,markdown)"
-    when:
-      - event: [push, pull_request]
-        path: 'content/**/*.(md,markdown)'
-
-  # Build hugo static files
   build:
     image: floryn90/hugo:latest-ext
     environment:
@@ -61,7 +39,6 @@ steps:
       - hugo --minify
     when:
       - event: [push, pull_request]
-    depends_on: []
 
   publish:
     image: bitnami/git
