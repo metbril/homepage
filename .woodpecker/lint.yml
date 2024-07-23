@@ -16,9 +16,9 @@ steps:
   lint-markdown:
     image: davidanson/markdownlint-cli2:latest
     commands:
-      - markdownlint-cli2 "content/**/*.{md,markdown}"
+      - markdownlint-cli2 "content/**/*.md"
     when:
-      - path: 'content/**/*.{md,markdown}'
+      - path: 'content/**/*.md'
 
   spell:
     image: ghcr.io/streetsidesoftware/cspell:latest
