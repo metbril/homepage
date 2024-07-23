@@ -16,7 +16,7 @@ steps:
   lint-markdown:
     image: davidanson/markdownlint-cli2:latest
     commands:
-      - markdownlint-cli2 "content/**/*.md"
+      - markdownlint-cli2 "content/**/*.{md,markdown}"
     when:
       - path: 'content/**/*.md'
     depends_on: []
@@ -26,7 +26,7 @@ steps:
     commands:
       - npm install -g @cspell/dict-nl-nl
       - cspell-cli link add @cspell/dict-nl-nl
-      - cspell-cli --locale "nl,en-GB" "content/**/*.(md,markdown)"
+      - cspell-cli --locale "nl,en-GB" "content/**/*.{md,markdown}"
     when:
       - path: 'content/**/*.md'
     depends_on: []
