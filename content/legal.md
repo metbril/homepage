@@ -1,7 +1,6 @@
 ---
 title: "Legal"
 date: "2024-07-23T21:04:50+02:00"
-draft: true
 # cspell:ignore 
 ---
 
