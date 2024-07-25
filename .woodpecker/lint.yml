@@ -5,6 +5,8 @@ when:
   - event: push
     branch:
       exclude: pages
+  - event: pull_request
+    branch: $CI_REPO_DEFAULT_BRANCH
 
 clone:
   git:
