@@ -27,7 +27,7 @@ You are prohibited from using any data or content from this website for training
 
 ## License
 
-<!-- markdownlint-disable-next-line MD0034 MD052 -->
+<!-- markdownlint-disable-next-line MD034 MD052 -->
 Unless explicitly stated otherwise, any content on this site being text, images, video or any other format, is licenced under [the CC BY-SA 4.0 license][cc-by-sa-40]. This means that you can share it as long as you attribute me as the original author and link back to this website (https://vanbregt.eu).
 
 <!-- markdownlint-disable-next-line MD052 -->
