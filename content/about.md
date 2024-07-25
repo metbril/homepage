@@ -39,7 +39,6 @@ I am particularly fond of the work of [Bits of Freedom][bitsoffreedom]. They fig
 [now]: {{< ref "/now" >}}
 [cv]: {{< ref "/cv" >}}
 [contact]: {{< ref "/contact" >}}
-[support]: {{< ref "/support" >}}
 [tweakers]: <https://tweakers.net/nieuws>
 [bitsoffreedom]: <https://www.bitsoffreedom.nl/doneren>
 [drop]: <https://www.matthijsshop.nl/Brusselsmanneke>
