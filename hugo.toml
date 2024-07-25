@@ -140,6 +140,11 @@ enableRobotsTXT = true
   # some markdown allowed
   license = "Unless otherwise noted, all written content on this site is licenced with a [CC BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/)."
 
+  ##### Grotius v2
+  # the number of recent posts on the homepage
+  recentPosts = 7 # default = 5
+  hideCredits = false  # default = false
+
   [params.author]
     # name and email are used in internal RSS template
     # https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml
@@ -154,9 +159,34 @@ enableRobotsTXT = true
   #   # Twitter meta card
   #   twitter = "robertvanbregt"
 
-  # ---------- Grotius v2 ----------
-
-  hideCredits = false  # default = false
+  ##### Grotius v2
+  # Content-Security-Policy
+  # Codeberg does not allow you to set HTTP headers, so let's add them to the page head.
+  # https://content-security-policy.com/examples/meta/
+  # https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
+  [params.csp]
+    childsrc = ["'self'"]
+    fontsrc = ["'self'"]
+    formaction = ["'self'"]
+    framesrc = [
+      "'self'", 
+      "https://www.youtube.com", 
+    ]
+    imgsrc = [
+      "'self'",
+    ]
+    objectsrc = ["'none'"]
+    stylesrc = [
+      "'self'",
+      "'unsafe-inline'"
+    ]
+    scriptsrc = [
+      "'self'",
+      "'unsafe-inline'",
+    ]
+    connectsrc = [
+      "'self'"
+    ]
 
 [permalinks]
   # Specify for each section (= folder name)
@@ -194,4 +224,3 @@ enableRobotsTXT = true
   category = "categories"
   tag = "tags"
   series = "series"
-
