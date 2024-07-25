@@ -7,7 +7,7 @@ title = "Robert van Bregt"
 # https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml
 copyright = "© Copyright 2003-2024 Robert van Bregt"
 
-theme = "archie"
+theme = "grotius"
 
 enableEmoji = true
 
@@ -58,10 +58,26 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       unsafe = true
 
+# Give homepage weight -1 to force it before unweighed entries
+[[menu.main]]
+  name = "Home"
+  pageRef = "/"
+  weight = -1
+
 [[menu.main]]
   name = "Posts"
   pageRef = "posts"
   weight = 1
+
+[[menu.main]]
+  name = "Categories"
+  pageRef = "categories"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  pageRef = "tags"
+  weight = 3
 
 [[menu.main]]
   name =  "About"
@@ -70,8 +86,33 @@ enableRobotsTXT = true
 
 [[menu.main]]
   name = "Contact"
-  pageRef = "contact"
+  pageRef = "/contact"
   weight = 190
+
+[[menu.footer]]
+  name = "privacy"
+  url = "/legal/#privacy"
+  weight = 11
+
+[[menu.footer]]
+  name = "license"
+  url = "/legal/#license"
+  weight = 12
+
+[[menu.footer]]
+  name = "more legal..."
+  pageRef = "/legal/"
+  weight = 19
+
+[[menu.footer]]
+  name = "follow"
+  pageRef = "/follow/"
+  weight = 98
+
+[[menu.footer]]
+  name = "rss"
+  url = "/index.xml"
+  weight = 999
 
 [params]
 
@@ -112,6 +153,10 @@ enableRobotsTXT = true
   # [params.social]
   #   # Twitter meta card
   #   twitter = "robertvanbregt"
+
+  # ---------- Grotius v2 ----------
+
+  hideCredits = false  # default = false
 
 [permalinks]
   # Specify for each section (= folder name)

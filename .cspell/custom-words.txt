@@ -1,8 +1,11 @@
 # Products and brands
 
 adium
+automator
 bitwarden
+chello
 fastmail
+feedly
 filevault
 freeler
 ftp
@@ -10,20 +13,25 @@ garmin
 geocities
 hyves
 ichat
+imac
 imdb
 ipad
 iphone
 ipod
+itunes
 jabra
 launchy
 macbook
 mapnik
+minolta
+nkbv
 okimono
 openhab
 pexels
 pexels
 pixabay
 plaxo
+quion
 rhythmbox
 sempress
 siri
@@ -36,13 +44,6 @@ wordpress
 wwdc
 xkcd
 youtube
-itunes
-imac
-chello
-nkbv
-minolta
-quion
-automator
 
 # Me
 robertvanbregt

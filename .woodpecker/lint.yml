@@ -6,7 +6,7 @@ when:
     branch:
       exclude: pages
   - event: pull_request
-    branch: $CI_REPO_DEFAULT_BRANCH
+    branch: ${CI_REPO_DEFAULT_BRANCH}
 
 clone:
   git:
