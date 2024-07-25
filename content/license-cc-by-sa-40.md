@@ -1,6 +1,6 @@
 ---
 title: "Attribution-ShareAlike 4.0 International license"
-# cspell:ignore 
+# cspell:disable
 ---
 
 ```text

@@ -1,8 +1,8 @@
 ---
 title: "Legal"
 # cspell:ignore 
+# markdownlint-disable MD052
 ---
-
 ## Privacy
 
 I do not track you. No personal information is stored. This site does not make use of cookies.
