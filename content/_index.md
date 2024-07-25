@@ -1,6 +1,6 @@
 ---
 # Site homepage
-title: Robert van Bregt
+title: Hello, my name is Robert
 ---
 
-Experienced project manager, otherwise lover of anything science, technology, computers and internet.
+I'm an experienced project manager, otherwise lover of anything science, technology, computers and internet.
