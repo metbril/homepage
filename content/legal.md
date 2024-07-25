@@ -11,7 +11,7 @@ This site is hosted by [Codeberg Pages][codeberg-pages]. Their privacy policy ca
 
 ## Disclaimer
 
-Everything I write and publish over here is my own material and in my personal capacity. You will never read my employer's opinions or policies here. 
+Everything I write and publish over here is my own material and in my personal capacity. You will never read my employer's opinions or policies here.
 
 If I do use someone else's material, I will always try to get permission in advance and mention the source. If you come across material without a (correct) mention, please [let me know][contact]. I will then change the listing or remove the material immediately.
 
