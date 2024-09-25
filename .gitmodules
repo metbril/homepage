@@ -3,4 +3,4 @@
 	url = https://github.com/athul/archie.git
 [submodule "themes/grotius"]
 	path = themes/grotius
-	url = git@codeberg.org:r12t/hugo-grotius-v2.git
+	url = git@github.com:metbril/hugo-grotius-v2.git
