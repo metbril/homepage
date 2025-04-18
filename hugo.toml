@@ -1,6 +1,6 @@
 # Base url is overwritten in netlify.toml
 baseUrl   = "https://vanbregt.eu/"
-defaultContentLanguage = "en"
+defaultContentLanguage = "en-GB"
 title = "Robert van Bregt"
 
 # copyright is used in internal RSS template
@@ -224,3 +224,6 @@ path      = "pagina"  # default = "page"
   category = "categories"
   tag = "tags"
   series = "series"
+
+[languages]
+  [languages.en-gb]
