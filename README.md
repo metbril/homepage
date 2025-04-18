@@ -60,3 +60,9 @@ Themes from others that I've used in the past, from latest to oldest:
 The Archie theme only supports the `main` menu. The commonly used `footer` and `social` are not available. There is a `params.social` map, however that is used to show icons in the footer.
 
 Hugo allows you to specify menus inside the content or in the config. Both will do and can technically be mixed. For clarity it is best to pick one method. I have chosen to move all menu definitiions to the `hugo.toml` configuration file.
+
+## Hugo Version
+
+The oldest version that can be used to build the site:
+
+- v0.128.0 - site config key paginate was deprecated and subsequently removed

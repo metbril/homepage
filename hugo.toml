@@ -31,10 +31,6 @@ mainSections = [ "posts" ]
 
 ##################################################
 
-# pagination
-paginate     = 10         # default = 10
-paginatePath = "pagina"   # default = "page"
-
 summaryLength = 70  # default 70 (words)
 
 canonifyUrls = true
@@ -52,6 +48,10 @@ googleAnalytics = ""
 metaDataFormat = "yaml"
 
 enableRobotsTXT = true
+
+[pagination]
+pagerSize = 10        # default = 10
+path      = "pagina"  # default = "page"
 
 [markup]
   [markup.goldmark]
