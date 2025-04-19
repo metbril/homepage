@@ -1,1 +1,15 @@
-<p>Copyright {{ now.Year }}. All rights reserved.</p>
+<p>
+  Copyright ©
+  {{ if (and .Site.Params.since (lt .Site.Params.since now.Year)) }}
+    {{ .Site.Params.since }} -
+  {{ end }}
+  {{- now.Year -}}
+  {{ with .Site.Params.author.name }}
+    {{ . }}
+  {{- end -}}
+  .
+  {{ with .Site.Params.license }}
+    {{ T "licensed_under" }} {{ . | safeHTML }}.
+  {{ end }} 
+  {{ T "powered_by" }} <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>.
+</p>

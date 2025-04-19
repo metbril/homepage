@@ -137,8 +137,10 @@ path      = "pagina"  # default = "page"
 
   math   = false
 
-  # some markdown allowed
-  license = "Unless otherwise noted, all written content on this site is licenced with a [CC BY-SA 4.0 license](http://creativecommons.org/licenses/by-sa/4.0/)."
+  since = 2003
+
+  # SafeHTML allowed
+  license = "<a href='https://creativecommons.org/licenses/by/4.0/'>CC BY 4.0</a>"
 
   ##### Grotius v2
   # the number of recent posts on the homepage
