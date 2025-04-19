@@ -7,12 +7,27 @@ body {
   margin: auto;
 }
 
-header {
+body > header {
   border-bottom: 1px solid #222;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
-footer {
+body > header > nav ul {
+  list-style-type: none;
+  margin: 1.2rem 0;
+  padding: 0;
+}
+
+body > header > nav li {
+  display: inline;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+body > footer {
   border-top: 1px solid #222;
   margin-top: 1rem;
 }
